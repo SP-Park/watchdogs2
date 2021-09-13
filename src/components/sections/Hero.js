@@ -76,16 +76,6 @@ const Hero = ({
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 클라이언트 보호: 글로벌 1위 안티 템퍼 / 안티 치트 솔루션 <br /> API 엔드포인트: 20년 경력의 게임 전문회사에 의한 침투테스트.
                 </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="/wdog2/v1/product">
-                    클라이언트 보호
-                    </Button>
-                  <Button tag="a" color="primary" wideMobile href="#">
-                    API 엔드보인트 보호
-                    </Button>
-                </ButtonGroup>
-              </div>
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">

@@ -87,7 +87,7 @@ const Header = ({
             bottomDivider && 'has-bottom-divider'
           )}>
           {/* <Logo /> */}
-          <Link to="/wdog2">
+          <Link to="/">
           <Avatar alt="watchdogs" src={require('./../../assets/images/logo_mini_white.png')} style={{ marginRight: '1rem' }}/>
           </Link>
           <span className="heading-primary">WatchDogs</span>
@@ -118,13 +118,13 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="/wdog2" onClick={closeMenu}>HOME</Link>
+                      <Link to="/" onClick={closeMenu}>HOME</Link>
                     </li>
                     <li>
-                      <Link to="/wdog2/v1/product" onClick={closeMenu}>Denuvo</Link>
+                      <Link to="/v1/product" onClick={closeMenu}>Denuvo</Link>
                     </li>
                     <li>
-                      <Link to="/wdog2/v1/product" onClick={closeMenu}>Cyrex</Link>
+                      <Link to="/v1/product" onClick={closeMenu}>Cyrex</Link>
                     </li>
                   </ul>
                   {!hideSignin &&

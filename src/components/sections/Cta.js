@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionProps.types,
@@ -62,7 +63,10 @@ const Cta = ({
                 <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
               </svg>
             </Input> */}
-            <a href="/v1/product" target='_blank' class="btn btn--white" style={{ color: '#777777' }}>See Denuvo  &rarr;</a>
+           <Link to="/v1/product">
+              <a  target='_blank' class="btn btn--white" style={{ color: '#777777' }}>See Denuvo  &rarr;</a>
+          </Link>
+            {/* <a href="/v1/product" target='_blank' class="btn btn--white" style={{ color: '#777777' }}>See Denuvo  &rarr;</a> */}
           </div>
         </div>
       </div>

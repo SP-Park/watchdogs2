@@ -38,8 +38,8 @@ const App = () => {
       children={() => (
         <Switch>
           {/* <AppRoute exact path="/watchdogs_s02" component={Home} layout={LayoutDefault} /> */}
-          <AppRoute exact path="/wdog2" component={Home} layout={LayoutDefault} />
-          <AppRoute exact path="/wdog2/v1/product" component={V1} layout={LayoutDefault} />
+          <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+          <AppRoute exact path="/v1/product" component={V1} layout={LayoutDefault} />
 
         </Switch>
       )} />
