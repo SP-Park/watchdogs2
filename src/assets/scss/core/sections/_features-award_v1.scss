@@ -1,0 +1,275 @@
+// COLORS
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+// FONT
+$default-font-size: 16px;
+
+
+
+//GRID
+$grid-width: 1140px;
+$gutter-vertical: 80px;
+$gutter-vertical-small: 60px;
+$gutter-horizontal: 5px;
+
+.u-center-text { text-align: center !important; }
+
+.u-margin-bottom-small { margin-bottom: 15px !important; }
+.u-margin-bottom-medium {
+    margin-bottom: 40px !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 30px !important;
+    }
+}
+
+.u-margin-bottom-big { 
+    margin-bottom: 80px !important;
+
+    @include respond(tab-port) {
+        margin-bottom: 50px !important;
+    }
+}
+
+.u-margin-top-big { margin-top: 80px !important; }
+.u-margin-top-huge { margin-top: 100px !important; }
+
+.paragraph {
+  font-size: $default-font-size;
+
+  &:not(:last-child) {
+      margin-bottom: 30px;
+  }
+}
+.paragraph-1 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.section-book {
+  padding: 150px 0;
+  background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
+
+  @include respond(tab-port) {
+      padding: 100px 0;
+  }
+}
+
+.book {
+  background-image: linear-gradient(105deg, rgba($color-white, .9) 0%, rgba($color-white, .9) 70%, transparent 50%) ,url(../../../images/book2.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 15px 40px rgba($color-black, .2);
+
+  @include respond(tab-land) {
+    background-image: linear-gradient(105deg, 
+    rgba($color-white, .9) 0%,
+    rgba($color-white, .9) 65%,
+    transparent 65%) ,
+url(../../../images/book2.jpg);
+    background-size: cover;
+}
+
+@include respond(tab-port) {
+    background-image: linear-gradient(to right, 
+    rgba($color-white, .9) 0%,
+    rgba($color-white, .9) 100%),
+url(../../../images/book2.jpg);
+}
+
+&__form {
+    width: 50%;
+    padding: 60px;
+
+    @include respond(tab-land) {
+        width: 65%;
+    }
+
+    @include respond(tab-port) {
+        width: 100%;
+    }
+}
+}
+
+.form {
+  &__group:not(:last-child) {
+      margin-bottom: 20px;
+  }
+
+  &__input {
+      font-size: 15px;
+      font-family: inherit;
+      color: inherit;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 2px;
+      background-color: rgba($color-white, .5);
+      border-bottom: 3px solid transparent;
+      width: 90%;
+      display: block;
+
+      &:focus {
+          outline: none;
+          box-shadow: 0 10px 20px rgba($color-black, .1);
+          border-bottom: 3px solid $color-primary;
+      }
+
+      &:focus:invalid {
+          border-bottom: 3px solid $color-secondary-dark;
+      }
+
+      &::-webkit-input-placeholder {
+          color: $color-grey-dark-2;
+      }
+  }
+
+  &__label {
+      font-size: 12px;
+      font-weight: 700;
+      margin-top: 7px;
+      margin-left: 20px;
+      display: block;
+      transition: all .3s;
+  }
+
+  &__input:placeholder-shown + &__label {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-40px);
+  }
+
+  &__radio-group {
+      width: 49%;
+      display: inline-block;
+  }
+
+  &__radio-input {
+      display: none;
+  }
+
+  &__radio-label {
+      font-size: $default-font-size;
+      cursor: pointer;
+      position: relative;
+      padding-left: 45px;
+  }
+
+  &__radio-button {
+      height: 30px;
+      width: 30px;
+      border: 5px solid $color-primary;
+      border-radius: 50%;
+      display: inline-block;
+      position: absolute;
+      left: 0;
+      top: -4px;
+
+      &::after {
+          content: "";
+          display: block;
+          height: 13px;
+          width: 13px;
+          border-radius: 50%;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-color: $color-primary;
+          opacity: 0;
+          transition: opacity .2s;
+      }
+  }
+
+  &__radio-input:checked ~ &__radio-label &__radio-button::after {
+      opacity: 1;
+  }
+}
+
+
+
+
+
+
+.row {
+  max-width: $grid-width;
+  // background-color: #eee;
+  margin: 0 auto;
+
+  &:not(:last-child) {  // 괄호안의 것만 제외하고 모두 적용
+    margin-bottom: $gutter-vertical;
+
+    @include respond(tab-port) {
+      margin-bottom: $gutter-vertical-small;
+    }
+  }
+
+  @include respond(tab-port) {
+    max-width: 500px;
+    padding: 0 30px;
+  }
+
+  @include clearfix;
+
+  // * 포함하는 모든,  $ 로 끝나는, ^ 로 시작하는
+  [class^="col-"] {
+    // background-color: orangered;
+    float: left;
+    // color: white;
+
+    &:not(:last-child){
+      margin-right: $gutter-horizontal;
+
+      @include respond(tab-port) {
+        margin-right: 0;
+        margin-bottom: $gutter-vertical-small;
+      }
+    }
+
+    @include respond(tab-port) {
+      width: 100% !important;
+    }
+
+  }
+
+  .col-1-of-2 {
+    width: calc((100% - #{$gutter-horizontal}) / 2);
+  }
+
+  .col-1-of-3 {
+    width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+  }
+
+  .col-2-of-3 {
+    width: calc( 2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal});
+  }
+
+  .col-1-of-4 {
+    width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
+  }
+
+  .col-2-of-4 {
+    width: calc( 2 * ((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal});
+  }
+
+  .col-3-of-4 {
+    width: calc( 3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
+  }
+}
