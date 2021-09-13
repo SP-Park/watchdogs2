@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23852cc86529142fe781bc2c0080ec9c",
+    "revision": "30dec45bbd00a12d79a141a862db6f82",
     "url": "/watchdogs2/index.html"
   },
   {
-    "revision": "2f75b92d6a08eca55582",
+    "revision": "97f03b107bfa2968244b",
     "url": "/watchdogs2/static/css/main.3fbf7aa0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/watchdogs2/static/js/2.d6c0a681.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f75b92d6a08eca55582",
-    "url": "/watchdogs2/static/js/main.50aa62f4.chunk.js"
+    "revision": "97f03b107bfa2968244b",
+    "url": "/watchdogs2/static/js/main.2835c680.chunk.js"
   },
   {
     "revision": "3875076a65dbcaaec2e6",
