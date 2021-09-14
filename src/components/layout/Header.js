@@ -126,6 +126,9 @@ const Header = ({
                     <li>
                       <Link to="/v1/product" onClick={closeMenu}>Cyrex</Link>
                     </li>
+                    <li>
+                      <Link to="/blog" onClick={closeMenu}>Blog</Link>
+                    </li>
                   </ul>
                   {!hideSignin &&
                     <ul

@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -134,6 +135,11 @@ const Testimonial = ({
             </div>
 
           </div>
+          <div className="u-center-text">
+            <Link to="/blog">
+              <a  target='_blank' class="btn btn--white" style={{ color: '#777777' }}>Read All Blogs  &rarr;</a>
+          </Link>
+            </div>
         </div>
       </div>
     </section>
