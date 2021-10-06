@@ -11,7 +11,9 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 import V1 from './views/V1';
+import Cyrex from './views/Cyrex';
 import Blog from './views/Blog';
+
 
 // Initialize Google Analytics
 // ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -41,6 +43,7 @@ const App = () => {
           {/* <AppRoute exact path="/watchdogs_s02" component={Home} layout={LayoutDefault} /> */}
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/v1/product" component={V1} layout={LayoutDefault} />
+          <AppRoute exact path="/v2/cyrex" component={Cyrex} layout={LayoutDefault} />
           <AppRoute exact path="/blog" component={Blog} layout={LayoutDefault} />
         </Switch>
       )} />

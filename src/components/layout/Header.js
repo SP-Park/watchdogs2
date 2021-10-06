@@ -124,7 +124,7 @@ const Header = ({
                       <Link to="/v1/product" onClick={closeMenu}>Denuvo</Link>
                     </li>
                     <li>
-                      <Link to="/v1/product" onClick={closeMenu}>Cyrex</Link>
+                      <Link to="/v2/cyrex" onClick={closeMenu}>Cyrex</Link>
                     </li>
                     <li>
                       <Link to="/blog" onClick={closeMenu}>Blog</Link>

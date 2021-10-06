@@ -60,7 +60,7 @@ const Testimonial = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
-            <div className="tiles-item reveal-from-right" data-reveal-delay="200" style={{   }}>
+            <div className="tiles-item" data-reveal-delay="200" style={{   }}>
             <a href="https://blog.naver.com/PostView.naver?blogId=happycloude&Redirect=View&logNo=222492831136&categoryNo=102&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=18889" target='_blank'>
             <div className="tiles-item-inner">
               <Image
@@ -85,7 +85,7 @@ const Testimonial = ({
 
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item">
             <a href="https://blog.naver.com/happycloude/222493975779" target='_blank'>
               <div className="tiles-item-inner">
               <Image
@@ -110,7 +110,7 @@ const Testimonial = ({
               </a>
             </div>
 
-            <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+            <div className="tiles-item" data-reveal-delay="200">
             <a href="https://blog.naver.com/happycloude/222496915392" target='_blank'>
               <div className="tiles-item-inner">
               <Image

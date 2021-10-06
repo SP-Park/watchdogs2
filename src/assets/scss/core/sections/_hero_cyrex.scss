@@ -1,0 +1,139 @@
+.hero_cyrex {
+	background-image: url(../../../images/lion_black.jpg);
+	opacity: .8;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	.section-inner {
+		padding-top: $hero--padding-t__mobile;
+		padding-bottom: $hero--padding-b__mobile;
+	}
+}
+
+
+.logos img {
+	width: 100px;
+	animation: bubble 7s linear infinite;
+}
+
+.logos {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: absolute;
+	bottom: -70px;
+}
+
+@keyframes bubble {
+	0% {
+		transform: translateY(0);
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	70% {
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-80vh);
+		opacity: 0;
+	}
+}
+
+.logos img:nth-child(1) {
+	animation-delay: 2s;
+	width: 60px;
+}
+.logos img:nth-child(2) {
+	animation-delay: 1s;
+}
+.logos img:nth-child(3) {
+	animation-delay: 3s;
+	width: 50px;
+}
+.logos img:nth-child(4) {
+	animation-delay: 4.5s;
+	width: 30px;
+}
+.logos img:nth-child(5) {
+	animation-delay: 3s;
+	width: 45px;
+}
+.logos img:nth-child(6) {
+	animation-delay: 6s;
+	width: 35px;
+}
+.logos img:nth-child(7) {
+	animation-delay: 7s;
+	width: 70px;
+}
+
+
+.hero_cyrex-inner {
+
+	// Affects only hero full
+	> .hero_cyrex-content + .hero_cyrex-figure,
+	> .hero_cyrex-figure + .hero_cyrex-content {
+		margin-top: $hero--inner-padding-v_mobile;
+	}
+
+	> .hero_cyrex-figure {
+
+		> a {
+			display: inline-flex;
+			// prevents stretching
+			align-items: center;
+			vertical-align: top;
+		}
+	}
+}
+
+@include media( '<=medium' ) {
+
+	.hero_cyrex {
+
+		.split-wrap {
+
+			.split-item {
+
+				.split-item-content {
+					margin-bottom: $hero--inner-padding-v_mobile;
+				}
+			}
+
+			&.invert-mobile {
+
+				.split-item {
+
+					.split-item-image {
+						margin-bottom: $hero--inner-padding-v_mobile;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include media( '>medium' ) {
+
+	.hero_cyrex {
+
+		.section-inner {
+			padding-top: $hero--padding-t__desktop;
+			padding-bottom: $hero--padding-b__desktop;
+		}
+	}
+
+	.hero_cyrex-inner {
+
+		// Affects only hero full
+		> .hero_cyrex-content + .hero_cyrex-figure,
+		> .hero_cyrex-figure + .hero_cyrex-content {
+			margin-top: $hero--inner-padding-v_desktop;
+		}
+	}
+}

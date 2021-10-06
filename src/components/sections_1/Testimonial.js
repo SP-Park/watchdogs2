@@ -67,7 +67,7 @@ const FeaturesSplit = ({
              안티 치트의 글로벌 1위
             </h2>
             <div className="container-xs">
-              <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+              <p className="m-0 mb-32" >
               글로벌 수준의 해커에 대응하는 글로벌 1위의 안티 치트 Denuvo.<br /> 
                 </p>
             </div>
@@ -75,7 +75,7 @@ const FeaturesSplit = ({
           <div className={splitClasses}>
 
             <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+              <div className="split-item-content center-content-mobile" >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                    Securing PC games from crackers and cheaters
                 </div>
@@ -95,10 +95,10 @@ const FeaturesSplit = ({
               </div>
               <div className={
                 classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
+                  'split-item-image center-content-mobile',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
+                >
                 <Image
                   src={require('./../../assets/images/anticheat.PNG')}
                   alt="Features split 01"
@@ -108,7 +108,7 @@ const FeaturesSplit = ({
             </div>
 
             <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+              <div className="split-item-content center-content-mobile" >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Identifying and protecting vulnerabilities: profiling
                   </div>
@@ -128,10 +128,10 @@ const FeaturesSplit = ({
               </div>
               <div className={
                 classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
+                  'split-item-image center-content-mobile',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
+                >
                 <Image
                   src={require('./../../assets/images/identity.jpg')}
                   alt="Features split 02"
@@ -141,7 +141,7 @@ const FeaturesSplit = ({
             </div>
 
             <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+              <div className="split-item-content center-content-mobile" >
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Cyber Services: taking security one step further
                   </div>
@@ -156,10 +156,10 @@ const FeaturesSplit = ({
               </div>
               <div className={
                 classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
+                  'split-item-image center-content-mobile',
                   imageFill && 'split-item-image-fill'
                 )}
-                data-reveal-container=".split-item">
+                >
                 <Image
                   src={require('./../../assets/images/cyber-services.png')}
                   alt="Features split 03"

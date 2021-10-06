@@ -75,14 +75,14 @@ const Testimonial = ({
                 WatchDogs Blogs
               </h2>
               <div className="container-xs">
-                <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                <p className="m-0 mb-32">
                  게임 보안의 트렌드
                 </p>
             </div>
             </div>
           <div className={tilesClasses}>
 
-            <div className="tiles-item reveal-from-right" data-reveal-delay="200" style={{ backgroundColor: ''  }}>
+            <div className="tiles-item"  style={{ backgroundColor: ''  }}>
             <a href="https://blog.naver.com/PostView.naver?blogId=happycloude&Redirect=View&logNo=222492831136&categoryNo=102&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=18889" target='_blank'>
              <div className="tiles-item-inner">
              <Card className={classes.root}>
@@ -113,7 +113,7 @@ const Testimonial = ({
             </a>
             </div>
 
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item">
             <a href="https://blog.naver.com/happycloude/222493975779" target='_blank'>
              <div className="tiles-item-inner">
              <Card className={classes.root}>
@@ -144,7 +144,7 @@ const Testimonial = ({
             </a>
             </div>
 
-            <div className="tiles-item reveal-from-left">
+            <div className="tiles-item">
             <a href="https://blog.naver.com/happycloude/222496915392" target='_blank'>
              <div className="tiles-item-inner">
              <Card className={classes.root}>
@@ -174,99 +174,6 @@ const Testimonial = ({
               </div>
             </a>
             </div>        
-
-            {/* <div className="tiles-item reveal-from-right" data-reveal-delay="200" style={{ backgroundColor: ''  }}>
-            <a href="https://blog.naver.com/PostView.naver?blogId=happycloude&Redirect=View&logNo=222492831136&categoryNo=102&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=18889" target='_blank'>
-             <div className="tiles-item-inner">
-             <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image={require('./../../assets/images/shutterstock_1005938026-scaled.jpg')}
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
-                     Denuvo Anti-Cheat: 
-                  </Typography>
-                  <Typography variant="body1" color="textSecondary" component="p">
-                      Why we chose to use Windows kernel-mode driver in our solution
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='_blank'>Denuvo</a>
-                  </span>
-                </div>
-            </Card>
-              </div>
-            </a>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom">
-            <a href="https://blog.naver.com/happycloude/222493975779" target='_blank'>
-             <div className="tiles-item-inner">
-             <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image={require('./../../assets/images/Global Gaming Survey Report.PNG')}
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
-                    GLOBAL GAMING SURVEY: 
-                  </Typography>
-                  <Typography variant="body1" color="textSecondary" component="p">
-                    THE LAST CHECKPOINT FOR CHEATING - INTRODUCTION
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='_blank'>Denuvo</a>
-                  </span>
-                </div>
-            </Card>
-              </div>
-            </a>
-            </div>
-
-            <div className="tiles-item reveal-from-left">
-            <a href="https://blog.naver.com/happycloude/222496915392" target='_blank'>
-             <div className="tiles-item-inner">
-             <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image={require('./../../assets/images/Global Gaming Survey Report -2.PNG')}
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
-                    GLOBAL GAMING SURVEY: 
-                  </Typography>
-                  <Typography variant="body1" color="textSecondary" component="p">
-                    THE LAST CHECKPOINT FOR CHEATING - 부정행위, 유저경험, 그리고 보안
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='_blank'>Denuvo</a>
-                  </span>
-                </div>
-            </Card>
-              </div>
-            </a>
-            </div> */}
 
           </div>
         </div>

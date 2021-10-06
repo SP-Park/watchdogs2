@@ -42,7 +42,7 @@ const FeaturesTiles = ({
                 <div class="col-1-of-4">
                  <div class="feature-box">
                   <SecurityIcon style={{fontSize: '68px', color: '#28b485' }}/>
-                  <h3 class="heading-tertiary-2 u-margin-bottom-small">글로벌 1위의 기술력</h3>
+                  <h3 class="heading-tertiary-2 u-margin-bottom-small">세계 1위의 기술력</h3>
                     <p class="feature-box__text">
                       글로벌 해커와 오랫동안 싸워가며 발전시켜온 기술력으로 2021년 명실상부한 글로벌 1위 기술력을 인정 받았습니다.
                     </p>
@@ -53,7 +53,7 @@ const FeaturesTiles = ({
                   <BuildIcon style={{fontSize: '68px', color: '#28b485' }}/>
                   <h3 class="heading-tertiary-2 u-margin-bottom-small">쉽고 편한 적용</h3>
                     <p class="feature-box__text">
-                      제조사에서 적용부터 1차 테스트까지 모두 수행하므로 개발일정에 보안을 고려하지 않아도 됩니다.
+                      제조사에서 적용부터 1차 테스트까지 모두 수행하므로 개발일정에 보안을 고려하지 않아도 됩니다. 10분 이내 적용 완료.
                     </p>
                    </div>
                 </div>
@@ -69,7 +69,7 @@ const FeaturesTiles = ({
                 <div class="col-1-of-4">
                  <div class="feature-box">
                   <ContactPhoneIcon style={{fontSize: '68px', color: '#28b485' }}/>
-                  <h3 class="heading-tertiary-2 u-margin-bottom-small">글로벌 1위의 서비스</h3>
+                  <h3 class="heading-tertiary-2 u-margin-bottom-small">세계 1위의 서비스</h3>
                     <p class="feature-box__text">
                       지원이 걱정되시나요? 모든 지원을 제조사에서 24시간 직접하며 초기 설계부터 성능 테스트를 완벽히 수행합니다.
                     </p>

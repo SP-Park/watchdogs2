@@ -113,6 +113,7 @@
 # Hero
 --------------------------------------------------------------*/
 @import "core/sections/hero";
+@import "core/sections/hero_cyrex";
 
 /*--------------------------------------------------------------
 # Features split
@@ -122,12 +123,18 @@
 @import "core/sections/features-4box_v1";
 @import "core/sections/features-award_v1";
 @import "core/sections/features-blogs";
+@import "core/sections/features-model";
 
 /*--------------------------------------------------------------
 # Features tiles
 --------------------------------------------------------------*/
 @import "core/sections/features-tiles";
 @import "core/sections/_features-tiles_V1";
+@import "core/sections/_features-tiles_cyrex";
+@import "core/sections/_features-portfolio";
+@import "core/sections/_features-intro";
+@import "core/sections/_features-intro-load";
+
 
 /*--------------------------------------------------------------
 # Testimonial

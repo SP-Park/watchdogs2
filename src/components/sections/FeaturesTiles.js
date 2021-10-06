@@ -59,7 +59,7 @@ const FeaturesTiles = ({
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
-            <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   {/* <div className="features-tiles-item-image mb-16"> */}
@@ -87,7 +87,7 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+            <div className="tiles-item" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   {/* <div className="features-tiles-item-image mb-16"> */}
@@ -113,7 +113,7 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+            <div className="tiles-item" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   {/* <div className="features-tiles-item-image mb-16"> */}
