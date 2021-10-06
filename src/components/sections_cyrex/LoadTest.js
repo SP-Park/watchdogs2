@@ -39,7 +39,7 @@ const FeaturesTilesLoad = ({
               </p>
             </div>
             <div className="u-center-text">
-              <a href="#" target='blank' class="btn btn--white" style={{ color: '#777777' }}>와치독스에 연락하기  &rarr;</a>
+              <a href="mailto:info@watchdogs.co.kr" target='blank' class="btn btn--white" style={{ color: '#777777' }}>와치독스에 연락하기  &rarr;</a>
           </div>
         </div>
             <div class="row">

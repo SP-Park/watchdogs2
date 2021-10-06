@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import Input from '../elements/Input';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionProps.types,
@@ -57,12 +57,9 @@ const Cta = ({
               </h3>
           </div>
           <div className="cta-action">
-            {/* <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Learn about Cyrex">
-              <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
-              </svg>
-            </Input> */}
-            <a href="#" target='_blank' class="btn btn--white" style={{ color: '#777777' }}>See Cyrex  &rarr;</a>
+          <Link to="/v2/cyrex">
+              <a target='blank' class="btn btn--white" style={{ color: '#777777' }}>See Cyrex  &rarr;</a>
+          </Link>
           </div>
         </div>
       </div>
