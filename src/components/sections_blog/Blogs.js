@@ -105,7 +105,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='_blank'>Denuvo</a>
+                    <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
                   </span>
                 </div>
             </Card>
@@ -114,7 +114,7 @@ const Testimonial = ({
             </div>
 
             <div className="tiles-item">
-            <a href="https://blog.naver.com/happycloude/222493975779" target='_blank'>
+            <a href="https://blog.naver.com/happycloude/222493975779" target='blank'>
              <div className="tiles-item-inner">
              <Card className={classes.root}>
               <CardActionArea>
@@ -136,7 +136,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='_blank'>Denuvo</a>
+                    <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
                   </span>
                 </div>
             </Card>
@@ -145,7 +145,7 @@ const Testimonial = ({
             </div>
 
             <div className="tiles-item">
-            <a href="https://blog.naver.com/happycloude/222496915392" target='_blank'>
+            <a href="https://blog.naver.com/happycloude/222496915392" target='blank'>
              <div className="tiles-item-inner">
              <Card className={classes.root}>
               <CardActionArea>
@@ -167,13 +167,44 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='_blank'>Denuvo</a>
+                    <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
                   </span>
                 </div>
             </Card>
               </div>
             </a>
             </div>        
+
+            <div className="tiles-item">
+            <a href="https://blog.naver.com/happycloude/222529819771" target='blank'>
+             <div className="tiles-item-inner">
+             <Card className={classes.root}>
+              <CardActionArea>
+                <CardMedia
+                  className={classes.media}
+                  image={require('./../../assets/images/Global Gaming Survey Report -3.PNG')}
+                  title="Contemplative Reptile"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
+                    GLOBAL GAMING SURVEY: 
+                  </Typography>
+                  <Typography variant="body1" color="textSecondary" component="p">
+                    THE LAST CHECKPOINT FOR CHEATING - GAME OVER FOR ONLINE GAMING REVENUES?
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">
+                    <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
+                  </span>
+                </div>
+            </Card>
+              </div>
+            </a>
+            </div> 
 
           </div>
         </div>

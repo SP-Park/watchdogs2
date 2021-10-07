@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c1d0dbdc7c462a7919c3b2be850d8a1",
+    "revision": "d6561f9976063fda8cba1ca34772ef9f",
     "url": "/index.html"
   },
   {
-    "revision": "7f6cb5c9994c4e46f47c",
+    "revision": "271fe0e4702fa795d048",
     "url": "/static/css/main.1003385e.chunk.css"
   },
   {
-    "revision": "f505cb3a34665a60b84a",
-    "url": "/static/js/2.0fec60a7.chunk.js"
+    "revision": "fd0271605864b7ac0695",
+    "url": "/static/js/2.820f53d7.chunk.js"
   },
   {
     "revision": "e3cddcc14d0b349b4e6eccba623e55ae",
-    "url": "/static/js/2.0fec60a7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.820f53d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f6cb5c9994c4e46f47c",
-    "url": "/static/js/main.06d585b5.chunk.js"
+    "revision": "271fe0e4702fa795d048",
+    "url": "/static/js/main.3967c2e8.chunk.js"
   },
   {
     "revision": "97d91114e7eaba3350c4",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5d7ba0758593f2103807495d6dcdd268",
     "url": "/static/media/Global Gaming Survey Report -2.5d7ba075.PNG"
+  },
+  {
+    "revision": "b4e227ebf11386e577991cc83056a1ec",
+    "url": "/static/media/Global Gaming Survey Report -3.b4e227eb.PNG"
   },
   {
     "revision": "b33344de8efe6a85b99f5f564dd00e2c",
