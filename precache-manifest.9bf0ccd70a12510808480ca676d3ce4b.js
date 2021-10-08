@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b626c7f4722c1528503d6aa639a99fb0",
+    "revision": "966be560399ac8d4d3905ed4c8c80327",
     "url": "/index.html"
   },
   {
-    "revision": "1af8820b8db190faa37e",
-    "url": "/static/css/main.e977aaf5.chunk.css"
+    "revision": "9be3a44480942e9df292",
+    "url": "/static/css/main.60aa52c0.chunk.css"
   },
   {
-    "revision": "9bdca9e988b17b79ef97",
-    "url": "/static/js/2.7ff04334.chunk.js"
+    "revision": "613d3f1dd0b83068109b",
+    "url": "/static/js/2.838b3df7.chunk.js"
   },
   {
     "revision": "e3cddcc14d0b349b4e6eccba623e55ae",
-    "url": "/static/js/2.7ff04334.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.838b3df7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1af8820b8db190faa37e",
-    "url": "/static/js/main.8b321d68.chunk.js"
+    "revision": "9be3a44480942e9df292",
+    "url": "/static/js/main.69a05fba.chunk.js"
   },
   {
     "revision": "97d91114e7eaba3350c4",
@@ -86,6 +86,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6e2469422b3cb76fdde3d8e59a6395ec",
     "url": "/static/media/cyrex-video-placeholder.6e246942.PNG"
+  },
+  {
+    "revision": "2fb08f221a866f9f18d36869aa3b3ee1",
+    "url": "/static/media/cyrex1.2fb08f22.PNG"
   },
   {
     "revision": "f53fdc3675ee1287e3276873978f99b8",
