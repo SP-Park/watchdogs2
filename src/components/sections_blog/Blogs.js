@@ -84,10 +84,12 @@ const Testimonial = ({
             </div>
           <div className={tilesClasses}>
 
-            <div className="tiles-item"  style={{ backgroundColor: ''  }}>
+            <div className="tiles-item">
             <a href="https://blog.naver.com/PostView.naver?blogId=happycloude&Redirect=View&logNo=222492831136&categoryNo=102&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=18889" target='_blank'>
              <div className="tiles-item-inner">
+             <div className="blogcard">
              <Card className={classes.root}>
+               
               <CardActionArea>
                 <CardMedia
                   className={classes.media}
@@ -103,6 +105,7 @@ const Testimonial = ({
                   </Typography>
                 </CardContent>
               </CardActionArea>
+              
                 {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
@@ -111,13 +114,67 @@ const Testimonial = ({
                   </span>
                 </div> */}
             </Card>
+            </div>
               </div>
             </a>
             </div>
 
             <div className="tiles-item">
+            <a href="https://blog.naver.com/happycloude/222530794175" target='blank'>
+             <div className="tiles-item-inner">
+             <div className="blogcard">
+             <Card className={classes.root}>
+              <CardActionArea>
+                <CardMedia
+                  className={classes.media}
+                  image={require('./../../assets/images/LOOK LIKE.jpg')}
+                  title="Contemplative Reptile"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
+                    GLOBAL GAMING INSIGHT: 
+                  </Typography>
+                  <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
+                    코로나-19 이후 변화하는 <br />게이머의 모습
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+            </div>
+              </div>
+            </a>
+            </div> 
+
+            <div className="tiles-item">
+            <a href="https://blog.naver.com/happycloude/222530921960" target='blank'>
+             <div className="tiles-item-inner">
+             <div className="blogcard">
+             <Card className={classes.root}>
+              <CardActionArea>
+                <CardMedia
+                  className={classes.media}
+                  image={require('./../../assets/images/cyrex1.PNG')}
+                  title="Contemplative Reptile"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
+                    Game Penetration Testing: 
+                  </Typography>
+                  <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
+                  안티 치트와 침투테스트: <br />거리의 중요성
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+            </div>
+              </div>
+            </a>
+            </div> 
+
+            <div className="tiles-item">
             <a href="https://blog.naver.com/happycloude/222493975779" target='blank'>
              <div className="tiles-item-inner">
+             <div className="blogcard">
              <Card className={classes.root}>
               <CardActionArea>
                 <CardMedia
@@ -134,14 +191,8 @@ const Testimonial = ({
                   </Typography>
                 </CardContent>
               </CardActionArea>
-                {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
-                  </span>
-                </div> */}
             </Card>
+            </div>
               </div>
             </a>
             </div>
@@ -149,6 +200,7 @@ const Testimonial = ({
             <div className="tiles-item">
             <a href="https://blog.naver.com/happycloude/222496915392" target='blank'>
              <div className="tiles-item-inner">
+             <div className="blogcard">
              <Card className={classes.root}>
               <CardActionArea>
                 <CardMedia
@@ -165,14 +217,8 @@ const Testimonial = ({
                   </Typography>
                 </CardContent>
               </CardActionArea>
-                {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
-                  </span>
-                </div> */}
             </Card>
+            </div>
               </div>
             </a>
             </div>        
@@ -180,6 +226,7 @@ const Testimonial = ({
             <div className="tiles-item">
             <a href="https://blog.naver.com/happycloude/222529819771" target='blank'>
              <div className="tiles-item-inner">
+             <div className="blogcard">
              <Card className={classes.root}>
               <CardActionArea>
                 <CardMedia
@@ -196,48 +243,13 @@ const Testimonial = ({
                   </Typography>
                 </CardContent>
               </CardActionArea>
-                {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
-                  </span>
-                </div> */}
             </Card>
+            </div>
               </div>
             </a>
             </div> 
 
-            <div className="tiles-item">
-            <a href="https://blog.naver.com/happycloude/222530794175" target='blank'>
-             <div className="tiles-item-inner">
-             <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image={require('./../../assets/images/LOOK LIKE.jpg')}
-                  title="Contemplative Reptile"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
-                    GLOBAL GAMING Insight: 
-                  </Typography>
-                  <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
-                    코로나-19 이후 변화하는 게이머의 모습
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-                {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
-                  </span>
-                </div> */}
-            </Card>
-              </div>
-            </a>
-            </div> 
+
 
           </div>
         </div>

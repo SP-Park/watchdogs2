@@ -129,3 +129,15 @@
     }
     //composition:hover composition__photo:not(:hover) {
 }
+
+
+.blogcard {
+    transition: all .2s;
+        &:hover {
+            // outline: 15px solid #55c57a;
+            transform: scale(1.05) translateY(-5px);
+            box-shadow: 0 25px 40px rgba(#000, .5);
+            z-index: 20;
+        }
+
+}

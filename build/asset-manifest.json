@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e977aaf5.chunk.css",
-    "main.js": "/static/js/main.8b321d68.chunk.js",
-    "main.js.map": "/static/js/main.8b321d68.chunk.js.map",
+    "main.css": "/static/css/main.60aa52c0.chunk.css",
+    "main.js": "/static/js/main.69a05fba.chunk.js",
+    "main.js.map": "/static/js/main.69a05fba.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f950abd.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f950abd.js.map",
-    "static/js/2.7ff04334.chunk.js": "/static/js/2.7ff04334.chunk.js",
-    "static/js/2.7ff04334.chunk.js.map": "/static/js/2.7ff04334.chunk.js.map",
+    "static/js/2.838b3df7.chunk.js": "/static/js/2.838b3df7.chunk.js",
+    "static/js/2.838b3df7.chunk.js.map": "/static/js/2.838b3df7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4ef0c79085da8a7caca564dd24ce9531.js": "/precache-manifest.4ef0c79085da8a7caca564dd24ce9531.js",
+    "precache-manifest.9bf0ccd70a12510808480ca676d3ce4b.js": "/precache-manifest.9bf0ccd70a12510808480ca676d3ce4b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.e977aaf5.chunk.css.map": "/static/css/main.e977aaf5.chunk.css.map",
-    "static/js/2.7ff04334.chunk.js.LICENSE.txt": "/static/js/2.7ff04334.chunk.js.LICENSE.txt",
+    "static/css/main.60aa52c0.chunk.css.map": "/static/css/main.60aa52c0.chunk.css.map",
+    "static/js/2.838b3df7.chunk.js.LICENSE.txt": "/static/js/2.838b3df7.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/static/media/wave.93cf9ebc.gif",
     "static/media/2021Cybersecurity.png": "/static/media/2021Cybersecurity.8f55155e.png",
     "static/media/Anti_Cheat.png": "/static/media/Anti_Cheat.54a1bd93.png",
@@ -24,6 +24,7 @@
     "static/media/anticheat.PNG": "/static/media/anticheat.458c4096.PNG",
     "static/media/cyber-services.png": "/static/media/cyber-services.aeb75ec4.png",
     "static/media/cyrex-video-placeholder.PNG": "/static/media/cyrex-video-placeholder.6e246942.PNG",
+    "static/media/cyrex1.PNG": "/static/media/cyrex1.2fb08f22.PNG",
     "static/media/doom.jpeg": "/static/media/doom.8f763caf.jpeg",
     "static/media/identity.jpg": "/static/media/identity.356c6fba.jpg",
     "static/media/load2.PNG": "/static/media/load2.affc6a22.PNG",
@@ -41,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8f950abd.js",
-    "static/js/2.7ff04334.chunk.js",
-    "static/css/main.e977aaf5.chunk.css",
-    "static/js/main.8b321d68.chunk.js"
+    "static/js/2.838b3df7.chunk.js",
+    "static/css/main.60aa52c0.chunk.css",
+    "static/js/main.69a05fba.chunk.js"
   ]
 }
