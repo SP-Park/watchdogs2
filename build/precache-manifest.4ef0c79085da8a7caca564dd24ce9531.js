@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6561f9976063fda8cba1ca34772ef9f",
+    "revision": "b626c7f4722c1528503d6aa639a99fb0",
     "url": "/index.html"
   },
   {
-    "revision": "271fe0e4702fa795d048",
-    "url": "/static/css/main.1003385e.chunk.css"
+    "revision": "1af8820b8db190faa37e",
+    "url": "/static/css/main.e977aaf5.chunk.css"
   },
   {
-    "revision": "fd0271605864b7ac0695",
-    "url": "/static/js/2.820f53d7.chunk.js"
+    "revision": "9bdca9e988b17b79ef97",
+    "url": "/static/js/2.7ff04334.chunk.js"
   },
   {
     "revision": "e3cddcc14d0b349b4e6eccba623e55ae",
-    "url": "/static/js/2.820f53d7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.7ff04334.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "271fe0e4702fa795d048",
-    "url": "/static/js/main.3967c2e8.chunk.js"
+    "revision": "1af8820b8db190faa37e",
+    "url": "/static/js/main.8b321d68.chunk.js"
   },
   {
     "revision": "97d91114e7eaba3350c4",
     "url": "/static/js/runtime-main.8f950abd.js"
+  },
+  {
+    "revision": "68d8c8231decf756dbe292455c737bdf",
+    "url": "/static/media/2020_wallpaper.68d8c823.jpg"
   },
   {
     "revision": "8f55155e78f35c5bee4c0ad97a053ae6",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b33344de8efe6a85b99f5f564dd00e2c",
     "url": "/static/media/Global Gaming Survey Report.b33344de.PNG"
+  },
+  {
+    "revision": "2014b9ec62522adc2cc914b927820adc",
+    "url": "/static/media/LOOK LIKE.2014b9ec.jpg"
   },
   {
     "revision": "458c4096eadd74e7c7b4db01fa837750",
@@ -142,10 +150,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c484413353ad5887b20027abbc56f76b",
     "url": "/static/media/models.c4844133.png"
-  },
-  {
-    "revision": "5f846d16e6be9a73e6eb73f620379af2",
-    "url": "/static/media/nat-7.5f846d16.jpg"
   },
   {
     "revision": "0e901b804dfc256fa26b87b1cbb1d609",

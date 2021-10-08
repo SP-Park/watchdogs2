@@ -118,16 +118,16 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="/" onClick={closeMenu}>HOME</Link>
+                      <Link to="/" onClick={closeMenu} style={{ color: '#fff' }}>HOME</Link>
                     </li>
                     <li>
-                      <Link to="/v1/product" onClick={closeMenu}>Denuvo</Link>
+                      <Link to="/v1/product" onClick={closeMenu} style={{ color: '#fff' }}>Denuvo</Link>
                     </li>
                     <li>
-                      <Link to="/v2/cyrex" onClick={closeMenu}>Cyrex</Link>
+                      <Link to="/v2/cyrex" onClick={closeMenu} style={{ color: '#fff' }}>Cyrex</Link>
                     </li>
                     <li>
-                      <Link to="/blog" onClick={closeMenu}>Blog</Link>
+                      <Link to="/blog" onClick={closeMenu} style={{ color: '#fff' }}>Blog</Link>
                     </li>
                   </ul>
                   {!hideSignin &&

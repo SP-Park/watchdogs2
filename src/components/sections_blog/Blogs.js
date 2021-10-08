@@ -24,9 +24,11 @@ const defaultProps = {
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
+    height: 350,
+    padding: '0.1rem'
   },
   media: {
-    height: 140,
+    height: 180,
   },
 });
 
@@ -75,7 +77,7 @@ const Testimonial = ({
                 WatchDogs Blogs
               </h2>
               <div className="container-xs">
-                <p className="m-0 mb-32">
+                <p className="m-0 mb-32" style={{ color: '#fff' }}>
                  게임 보안의 트렌드
                 </p>
             </div>
@@ -96,18 +98,18 @@ const Testimonial = ({
                   <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
                      Denuvo Anti-Cheat: 
                   </Typography>
-                  <Typography variant="body1" color="textSecondary" component="p">
+                  <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
                       Why we chose to use Windows kernel-mode driver in our solution
                   </Typography>
                 </CardContent>
               </CardActionArea>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
                   </span>
-                </div>
+                </div> */}
             </Card>
               </div>
             </a>
@@ -127,18 +129,18 @@ const Testimonial = ({
                   <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
                     GLOBAL GAMING SURVEY: 
                   </Typography>
-                  <Typography variant="body1" color="textSecondary" component="p">
+                  <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
                     THE LAST CHECKPOINT FOR CHEATING - INTRODUCTION
                   </Typography>
                 </CardContent>
               </CardActionArea>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
                   </span>
-                </div>
+                </div> */}
             </Card>
               </div>
             </a>
@@ -158,18 +160,18 @@ const Testimonial = ({
                   <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
                     GLOBAL GAMING SURVEY: 
                   </Typography>
-                  <Typography variant="body1" color="textSecondary" component="p">
+                  <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
                     THE LAST CHECKPOINT FOR CHEATING - 부정행위, 유저경험, 그리고 보안
                   </Typography>
                 </CardContent>
               </CardActionArea>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
                   </span>
-                </div>
+                </div> */}
             </Card>
               </div>
             </a>
@@ -189,18 +191,49 @@ const Testimonial = ({
                   <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
                     GLOBAL GAMING SURVEY: 
                   </Typography>
-                  <Typography variant="body1" color="textSecondary" component="p">
+                  <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
                     THE LAST CHECKPOINT FOR CHEATING - GAME OVER FOR ONLINE GAMING REVENUES?
                   </Typography>
                 </CardContent>
               </CardActionArea>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
                   </span>
-                </div>
+                </div> */}
+            </Card>
+              </div>
+            </a>
+            </div> 
+
+            <div className="tiles-item">
+            <a href="https://blog.naver.com/happycloude/222530794175" target='blank'>
+             <div className="tiles-item-inner">
+             <Card className={classes.root}>
+              <CardActionArea>
+                <CardMedia
+                  className={classes.media}
+                  image={require('./../../assets/images/LOOK LIKE.jpg')}
+                  title="Contemplative Reptile"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
+                    GLOBAL GAMING Insight: 
+                  </Typography>
+                  <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
+                    코로나-19 이후 변화하는 게이머의 모습
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+                {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
+                  <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
+                  <span className="text-color-low"> / </span>
+                  <span className="testimonial-item-link">
+                    <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
+                  </span>
+                </div> */}
             </Card>
               </div>
             </a>

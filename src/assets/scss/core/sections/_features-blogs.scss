@@ -55,7 +55,12 @@ $gutter-horizontal: 60px;
 
 .section-blogs {
 	// background-color: $color-grey-light-1;
-	background-image:linear-gradient(to right bottom, rgba(#8F92A6, 0.8), rgba(#464B59, 0.8)), url(../../../images/nat-7.jpg);
+	// background-image:linear-gradient(to right bottom, rgba(#8F92A6, 0.8), rgba(#464B59, 0.8)), url(../../../images/nat-7.jpg);
+	background-image: url(../../../images/2020_wallpaper.jpg);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+
 	padding: 20px 0 100px 0;
 	// margin-top: -115px;
 

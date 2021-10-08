@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.1003385e.chunk.css",
-    "main.js": "/static/js/main.3967c2e8.chunk.js",
-    "main.js.map": "/static/js/main.3967c2e8.chunk.js.map",
+    "main.css": "/static/css/main.e977aaf5.chunk.css",
+    "main.js": "/static/js/main.8b321d68.chunk.js",
+    "main.js.map": "/static/js/main.8b321d68.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f950abd.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f950abd.js.map",
-    "static/js/2.820f53d7.chunk.js": "/static/js/2.820f53d7.chunk.js",
-    "static/js/2.820f53d7.chunk.js.map": "/static/js/2.820f53d7.chunk.js.map",
+    "static/js/2.7ff04334.chunk.js": "/static/js/2.7ff04334.chunk.js",
+    "static/js/2.7ff04334.chunk.js.map": "/static/js/2.7ff04334.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.141d3bc5ba192022981b54ad8a3a8eb4.js": "/precache-manifest.141d3bc5ba192022981b54ad8a3a8eb4.js",
+    "precache-manifest.4ef0c79085da8a7caca564dd24ce9531.js": "/precache-manifest.4ef0c79085da8a7caca564dd24ce9531.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1003385e.chunk.css.map": "/static/css/main.1003385e.chunk.css.map",
-    "static/js/2.820f53d7.chunk.js.LICENSE.txt": "/static/js/2.820f53d7.chunk.js.LICENSE.txt",
+    "static/css/main.e977aaf5.chunk.css.map": "/static/css/main.e977aaf5.chunk.css.map",
+    "static/js/2.7ff04334.chunk.js.LICENSE.txt": "/static/js/2.7ff04334.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/static/media/wave.93cf9ebc.gif",
     "static/media/2021Cybersecurity.png": "/static/media/2021Cybersecurity.8f55155e.png",
     "static/media/Anti_Cheat.png": "/static/media/Anti_Cheat.54a1bd93.png",
     "static/media/Cyrex_Pentest.jpg": "/static/media/Cyrex_Pentest.3eda6fda.jpg",
@@ -19,8 +20,8 @@
     "static/media/Global Gaming Survey Report -2.PNG": "/static/media/Global Gaming Survey Report -2.5d7ba075.PNG",
     "static/media/Global Gaming Survey Report -3.PNG": "/static/media/Global Gaming Survey Report -3.b4e227eb.PNG",
     "static/media/Global Gaming Survey Report.PNG": "/static/media/Global Gaming Survey Report.b33344de.PNG",
+    "static/media/LOOK LIKE.jpg": "/static/media/LOOK LIKE.2014b9ec.jpg",
     "static/media/anticheat.PNG": "/static/media/anticheat.458c4096.PNG",
-    "static/media/style.scss": "/static/media/wave.93cf9ebc.gif",
     "static/media/cyber-services.png": "/static/media/cyber-services.aeb75ec4.png",
     "static/media/cyrex-video-placeholder.PNG": "/static/media/cyrex-video-placeholder.6e246942.PNG",
     "static/media/doom.jpeg": "/static/media/doom.8f763caf.jpeg",
@@ -40,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8f950abd.js",
-    "static/js/2.820f53d7.chunk.js",
-    "static/css/main.1003385e.chunk.css",
-    "static/js/main.3967c2e8.chunk.js"
+    "static/js/2.7ff04334.chunk.js",
+    "static/css/main.e977aaf5.chunk.css",
+    "static/js/main.8b321d68.chunk.js"
   ]
 }
