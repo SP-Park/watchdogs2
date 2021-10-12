@@ -84,6 +84,32 @@ const Testimonial = ({
             </div>
           <div className={tilesClasses}>
 
+          <div className="tiles-item">
+            <a href="https://blog.naver.com/happycloude/222534739079" target='blank'>
+             <div className="tiles-item-inner">
+             <div className="blogcard">
+             <Card className={classes.root}>
+              <CardActionArea>
+                <CardMedia
+                  className={classes.media}
+                  image={require('./../../assets/images/hack-1.jpg')}
+                  title="Contemplative Reptile"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
+                    해킹 이슈: 
+                  </Typography>
+                  <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
+                    트위치, Naraka: Bladepoint, BloodyStealer
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+            </div>
+              </div>
+            </a>
+            </div> 
+
             <div className="tiles-item">
             <a href="https://blog.naver.com/PostView.naver?blogId=happycloude&Redirect=View&logNo=222492831136&categoryNo=102&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=18889" target='_blank'>
              <div className="tiles-item-inner">
