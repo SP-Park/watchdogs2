@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.60aa52c0.chunk.css",
-    "main.js": "/static/js/main.8c1362cc.chunk.js",
-    "main.js.map": "/static/js/main.8c1362cc.chunk.js.map",
+    "main.js": "/static/js/main.8a1653bf.chunk.js",
+    "main.js.map": "/static/js/main.8a1653bf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f950abd.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f950abd.js.map",
-    "static/js/2.d4fa3446.chunk.js": "/static/js/2.d4fa3446.chunk.js",
-    "static/js/2.d4fa3446.chunk.js.map": "/static/js/2.d4fa3446.chunk.js.map",
+    "static/js/2.ded72cde.chunk.js": "/static/js/2.ded72cde.chunk.js",
+    "static/js/2.ded72cde.chunk.js.map": "/static/js/2.ded72cde.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3232d665407213d0af2a0a801f493671.js": "/precache-manifest.3232d665407213d0af2a0a801f493671.js",
+    "precache-manifest.4ecf3e3a99c34747311fbc43c6299a99.js": "/precache-manifest.4ecf3e3a99c34747311fbc43c6299a99.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.60aa52c0.chunk.css.map": "/static/css/main.60aa52c0.chunk.css.map",
-    "static/js/2.d4fa3446.chunk.js.LICENSE.txt": "/static/js/2.d4fa3446.chunk.js.LICENSE.txt",
+    "static/js/2.ded72cde.chunk.js.LICENSE.txt": "/static/js/2.ded72cde.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/static/media/wave.93cf9ebc.gif",
     "static/media/2021Cybersecurity.png": "/static/media/2021Cybersecurity.8f55155e.png",
     "static/media/Anti_Cheat.png": "/static/media/Anti_Cheat.54a1bd93.png",
@@ -19,6 +19,7 @@
     "static/media/Denuvo_byIrdeto.jpg": "/static/media/Denuvo_byIrdeto.ce348d62.jpg",
     "static/media/Global Gaming Survey Report -2.PNG": "/static/media/Global Gaming Survey Report -2.5d7ba075.PNG",
     "static/media/Global Gaming Survey Report -3.PNG": "/static/media/Global Gaming Survey Report -3.b4e227eb.PNG",
+    "static/media/Global Gaming Survey Report -5.PNG": "/static/media/Global Gaming Survey Report -5.f08fd1f9.PNG",
     "static/media/Global Gaming Survey Report.PNG": "/static/media/Global Gaming Survey Report.b33344de.PNG",
     "static/media/LOOK LIKE.jpg": "/static/media/LOOK LIKE.2014b9ec.jpg",
     "static/media/anticheat.PNG": "/static/media/anticheat.458c4096.PNG",
@@ -43,8 +44,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8f950abd.js",
-    "static/js/2.d4fa3446.chunk.js",
+    "static/js/2.ded72cde.chunk.js",
     "static/css/main.60aa52c0.chunk.css",
-    "static/js/main.8c1362cc.chunk.js"
+    "static/js/main.8a1653bf.chunk.js"
   ]
 }
