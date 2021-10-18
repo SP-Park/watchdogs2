@@ -301,6 +301,32 @@ const Testimonial = ({
             </a>
             </div> 
 
+            <div className="tiles-item">
+            <a href="https://blog.naver.com/happycloude/222540654851" target='blank'>
+             <div className="tiles-item-inner">
+             <div className="blogcard">
+             <Card className={classes.root}>
+              <CardActionArea>
+                <CardMedia
+                  className={classes.media}
+                  image={require('./../../assets/images/Global Gaming Survey Report -6.PNG')}
+                  title="Contemplative Reptile"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
+                    GLOBAL GAMING SURVEY: 
+                  </Typography>
+                  <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
+                    NEGATIVE EXPERIENCES AND VULNERABILITIES, DO YOU WISH TO CONTINUE?
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+            </div>
+              </div>
+            </a>
+            </div> 
+
 
           </div>
         </div>
