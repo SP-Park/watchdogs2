@@ -1,12 +1,13 @@
 import React from 'react';
 // import sections
+import Cta from '../components/sections_1/Cta';
 import Hero from '../components/sections_1/Hero';
+import Support from '../components/sections_1/Support';
+import Testimonial from '../components/sections_1/Testimonial';
+import Features4box from '../components/sections_1/Features4box';
 import FeaturesTiles from '../components/sections_1/FeaturesTiles';
 import FeaturesSplit from '../components/sections_1/FeaturesSplit';
-import Features4box from '../components/sections_1/Features4box';
 import FeaturesAward from '../components/sections_1/FeaturesAward';
-import Testimonial from '../components/sections_1/Testimonial';
-import Cta from '../components/sections_1/Cta';
 
 const V1 = () => {
 
@@ -16,6 +17,7 @@ const V1 = () => {
       <FeaturesTiles />
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Features4box />
+      <Support />
       <FeaturesAward />
       <Testimonial />
       <hr />

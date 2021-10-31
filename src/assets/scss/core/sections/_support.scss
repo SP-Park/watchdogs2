@@ -1,0 +1,27 @@
+.support {
+	background-image: url(../../../images/child-pc-header.jpg);
+	opacity: 1;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	.section-inner {
+		padding-top: $hero--padding-t__mobile;
+		padding-bottom: $hero--padding-b__mobile;
+	}
+}
+
+.support-1 {
+	background-image: url(../../../images/space-2.jpg);
+	opacity: 1;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	.section-inner {
+		padding-top: $hero--padding-t__mobile;
+		padding-bottom: $hero--padding-b__mobile;
+	}
+}
