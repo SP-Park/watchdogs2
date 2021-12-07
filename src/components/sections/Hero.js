@@ -92,7 +92,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/cyrex-video-placeholder.PNG')}
+                src={require('./../../assets/images/cyrex-video-placeholder-1.PNG')}
                 alt="Hero"
                 width={896}
                 height={504} />
