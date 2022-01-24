@@ -14,16 +14,31 @@ import V1 from './views/V1';
 import Cyrex from './views/Cyrex';
 import Blog from './views/Blog';
 
+import ReactGA from "react-ga";
+import { createBrowserHistory } from 'history';
 
 // Initialize Google Analytics
 // ReactGA.initialize(process.env.REACT_APP_GA_CODE);
+ReactGA.initialize('UA-217910849-1');
 
-// const trackPage = page => {
-//   ReactGA.set({ page });
-//   ReactGA.pageview(page);
-// };
+const trackPage = page => {
+  ReactGA.set({ page });
+  ReactGA.pageview(page);
+};
 
 const App = () => {
+
+  // const history = createBrowserHistory();
+
+  // useEffect(() => {
+  //   ReactGA.initialize('UA-217910849-1');
+  //   ReactGA.pageview(window.location.pathname + window.location.search);
+  // }, [])
+
+  // history.listen((location) => {
+  //   ReactGA.pageview(location.pathname);
+  // })
+
 
   const childRef = useRef();
   let location = useLocation();
@@ -31,7 +46,8 @@ const App = () => {
   useEffect(() => {
     document.body.classList.add('is-loaded')
     childRef.current.init();
-    // trackPage(page);
+    console.log(location.pathname)
+    trackPage(location.pathname);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
