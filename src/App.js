@@ -17,9 +17,11 @@ import Blog from './views/Blog';
 import ReactGA from "react-ga";
 import { createBrowserHistory } from 'history';
 
+require('dotenv').config()
+
 // Initialize Google Analytics
 // ReactGA.initialize(process.env.REACT_APP_GA_CODE);
-ReactGA.initialize('UA-217910849-1');
+ReactGA.initialize(process.env.GA_INIT);
 
 const trackPage = page => {
   ReactGA.set({ page });
@@ -46,7 +48,6 @@ const App = () => {
   useEffect(() => {
     document.body.classList.add('is-loaded')
     childRef.current.init();
-    console.log(location.pathname)
     trackPage(location.pathname);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
