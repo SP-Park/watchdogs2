@@ -54,7 +54,7 @@ const FeaturesAward = ({
                         </p>
                     </div>
                     <div >
-                    <a href="https://cybersecurity-excellence-awards.com/2021-cybersecurity-product-service-awards-winners-and-finalists/" target='_blank' class="btn btn--green">Read Post</a>
+                    <a href="https://irdeto.com/news/irdeto-once-again-awarded-as-the-best-cybersecurity-company-by-cybersecurity-excellence-awards/?utm_source=DSMN8&utm_medium=LinkedIn" target='_blank' class="btn btn--green">Read Post</a>
                     </div>
             </div>
     </div>
