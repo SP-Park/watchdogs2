@@ -20,10 +20,9 @@ require('dotenv').config()
 
 // Initialize Google Analytics
 // ReactGA.initialize(process.env.REACT_APP_GA_CODE);
-// ReactGA.initialize(process.env.GA_INIT);
+ReactGA.initialize(process.env.GA_INIT);
 
 const trackPage = page => {
-  ReactGA.initialize('UA-217910849-1');
   ReactGA.set({ page });
   ReactGA.pageview(page);
 };
