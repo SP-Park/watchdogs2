@@ -23,7 +23,7 @@ require('dotenv').config()
 // ReactGA.initialize(process.env.GA_INIT);
 
 const trackPage = page => {
-  ReactGA.initialize(process.env.GA_INIT);
+  ReactGA.initialize('UA-217910849-1');
   ReactGA.set({ page });
   ReactGA.pageview(page);
 };
