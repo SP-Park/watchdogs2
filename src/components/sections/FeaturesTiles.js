@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: '세계에서 검증받은 1위의 솔루션으로 게임 자산을 보호하세요.',
-    paragraph: '2021 Cybersecurity 13개 부분 글로벌 1위 수상 — Denuvo'
+    paragraph: '2022 Cybersecurity 13개 부분 글로벌 1위 수상 — Denuvo'
   };
 
   return (

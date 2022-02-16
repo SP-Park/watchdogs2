@@ -57,7 +57,7 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-    <div className="bg-img">
+    <div className="bg-img" >
       <Image
         className="bg-img__content"
         src={require('./../../assets/images/Denuvo_byIrdeto.jpg')}
@@ -67,8 +67,8 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-v2-content">
-          <h1 className="mt-0 mb-16 heading-secondary" >
-            2021년 클라이언트 보안의 글로벌 1위 <br />
+          <h1 className="mt-0 mb-16 heading-secondary">
+            2022년 안티 치트 글로벌 1위 수상  <br />
           </h1>
             <br />
             <br />
