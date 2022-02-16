@@ -15,15 +15,15 @@ import Cyrex from './views/Cyrex';
 import Blog from './views/Blog';
 
 import ReactGA from "react-ga";
-import { createBrowserHistory } from 'history';
 
 require('dotenv').config()
 
 // Initialize Google Analytics
 // ReactGA.initialize(process.env.REACT_APP_GA_CODE);
-ReactGA.initialize(process.env.GA_INIT);
+// ReactGA.initialize(process.env.GA_INIT);
 
 const trackPage = page => {
+  ReactGA.initialize(process.env.GA_INIT);
   ReactGA.set({ page });
   ReactGA.pageview(page);
 };
@@ -49,7 +49,6 @@ const App = () => {
     document.body.classList.add('is-loaded')
     childRef.current.init();
     trackPage(location.pathname);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]);
 
   return (
@@ -57,7 +56,6 @@ const App = () => {
       ref={childRef}
       children={() => (
         <Switch>
-          {/* <AppRoute exact path="/watchdogs_s02" component={Home} layout={LayoutDefault} /> */}
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/v1/product" component={V1} layout={LayoutDefault} />
           <AppRoute exact path="/v2/cyrex" component={Cyrex} layout={LayoutDefault} />
