@@ -25,3 +25,45 @@
 		padding-bottom: $hero--padding-b__mobile;
 	}
 }
+
+.support-2 {
+	background-image: url(../../../images/cyberservice/expert.jpg);
+	opacity: 1;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	.section-inner {
+		padding-top: $hero--padding-t__mobile;
+		padding-bottom: $hero--padding-b__mobile;
+	}
+}
+
+.support-3 {
+	background-image: url(../../../images/cyberservice/intel.jpg);
+	opacity: 1;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	.section-inner {
+		padding-top: $hero--padding-t__mobile;
+		padding-bottom: $hero--padding-b__mobile;
+	}
+}
+
+.support-4 {
+	background-image: url(../../../images/cyberservice/STOP.jpg);
+	opacity: 1;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	.section-inner {
+		padding-top: $hero--padding-t__mobile;
+		padding-bottom: $hero--padding-b__mobile;
+	}
+}

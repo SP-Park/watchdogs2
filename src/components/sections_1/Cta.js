@@ -53,12 +53,12 @@ const Cta = ({
         >
           <div className="cta-slogan">
             <h3 className="m-0">
-              API 엔드포인트에 대한 점검이 필요하신가요?
+              해커에 대한 법적 대응이 필요하신가요?
               </h3>
           </div>
           <div className="cta-action">
-          <Link to="/v2/cyrex">
-              <a target='blank' class="btn btn--white" style={{ color: '#777777' }}>See Cyrex  &rarr;</a>
+          <Link to="/v3/cyberservice">
+              <a target='blank' class="btn btn--white" style={{ color: '#777777' }}>See CyberService  &rarr;</a>
           </Link>
           </div>
         </div>

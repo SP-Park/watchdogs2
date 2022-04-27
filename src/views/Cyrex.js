@@ -1,4 +1,5 @@
-import React from 'react';
+import axios from 'axios';
+import React, { useState, useEffect } from 'react';
 // import sections
 import Hero from '../components/sections_cyrex/Hero';
 import Portfolio from '../components/sections_cyrex/Portfolio';
@@ -11,7 +12,7 @@ import Headless from '../components/sections_cyrex/Headless';
 
 
 
-const V1 = () => {
+const Cyrex = () => {
 
   return (
     <>
@@ -27,4 +28,4 @@ const V1 = () => {
   );
 }
 
-export default V1;
+export default Cyrex;

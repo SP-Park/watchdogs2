@@ -64,6 +64,17 @@ $gutter-horizontal: .5rem;
 	}
 }
 
+.section-box-service {
+	// background-color: $color-grey-light-1;
+	background-image: linear-gradient(to right bottom, #87CEEB, #4682B4);
+	padding: 100px 0 150px 0;
+	// margin-top: -115px;
+
+	@include respond(tab-port) {
+			padding: 200px 0 100px 0;
+	}
+}
+
 .feature-box {
 	background-color: rgba(#fff, .8);
 	font-size: 16px;
@@ -94,6 +105,7 @@ $gutter-horizontal: .5rem;
 			transform: translateY(-15px) scale(1.03);
 	}
 }
+
 
 .row {
   max-width: $grid-width;

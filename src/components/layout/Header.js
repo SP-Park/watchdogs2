@@ -124,6 +124,9 @@ const Header = ({
                       <Link to="/v1/product" onClick={closeMenu} style={{ color: '#fff' }}>Denuvo</Link>
                     </li>
                     <li>
+                      <Link to="/v3/cyberservice" onClick={closeMenu} style={{ color: '#fff' }}>CyberService</Link>
+                    </li>
+                    <li>
                       <Link to="/v2/cyrex" onClick={closeMenu} style={{ color: '#fff' }}>Cyrex</Link>
                     </li>
                     <li>

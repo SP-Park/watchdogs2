@@ -50,26 +50,11 @@ const Hero = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-  // function fallback(video)
-  // {
-  //   var img = video.querySelector('img');
-  //   if (img)
-  //     video.parentNode.replaceChild(img, video);
-  // }
-
-
   return (
     <section
       {...props}
       className={outerClasses}
     >
-      {/* <div className="bg-video">
-        <video className="bg-video__content" autoPlay muted loop playsinline>
-           <source src={require('./../../assets/images/earth.mp4')} onerror="fallback(parentNode)" type="video/mp4"/>
-          <img src={require('./../../assets/images/earth.gif')}/>
-                    Your browser is not supported!
-         </video>
-      </div> */}
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
