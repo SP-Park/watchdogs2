@@ -9,13 +9,6 @@ import * as serviceWorker from './serviceWorker';
 //import './App.css';
 import './assets/scss/style.scss';
 
-// // React - Ga 초기화
-// import ReactGA from "react-ga";
-// require('dotenv').config()
-// ReactGA.initialize(process.env.GA_INIT);
-// ReactGA.pageview(window.location.pathname + window.location.search);
-// //
-
 const history = createBrowserHistory();
 
 ReactDOM.render(

@@ -20,13 +20,15 @@ require('dotenv').config()
 
 // Initialize Google Analytics
 // ReactGA.initialize(process.env.REACT_APP_GA_CODE);
-// ReactGA.initialize(process.env.GA_INIT, { debug: true });
+ReactGA.initialize(process.env.REACT_APP_GA_INIT, { debug: true });
 const history = createBrowserHistory();
 
 const trackPage = page => {
+  console.log('track', page)
   ReactGA.set({ page });
   ReactGA.pageview(page);
 };
+
 
 const App = () => {
 
@@ -40,23 +42,6 @@ const App = () => {
   // history.listen((location) => {
   //   ReactGA.pageview(location.pathname);
   // })
-
-  useEffect(()=>{
-    ReactGA.initialize(process.env.GA_INIT, { debug: true });
-    history.listen((location) => {
-      ReactGA.set({ page: location.pathname }); // Update the user's current page
-      ReactGA.pageview(location.pathname); // Record a pageview for the given page
-    });
-    // ReactGA.pageview(window.location.pathname + window.location.search);
-  },[])
-
-  // ReactGA.initialize(process.env.REACT_APP_TRACKING_ID, { debug: true });
-  // const history = createBrowserHistory();
-  // history.listen((location: any) => {
-  //   ReactGA.set({ page: location.pathname }); // Update the user's current page
-  //   ReactGA.pageview(location.pathname); // Record a pageview for the given page
-  // });
-
 
   const childRef = useRef();
   let location = useLocation();
