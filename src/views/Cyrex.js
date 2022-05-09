@@ -17,11 +17,11 @@ const Cyrex = () => {
   const [GeoDataCyrex, setGeoDataCyrex] = useState(null)
 
   useEffect(() => {
-    fetch('http://api.ipify.org/?format=json')
-    .then(response => response.json())
-    .then(data => setGeoDataCyrex(data.ip))
+    const response = axios.get('http://api.ipify.org/?format=json')
+    .then(response => setGeoDataCyrex(response.data.ip))
   }, [])
 
+  
   console.log('IP_Cyrex', GeoDataCyrex)
 
 

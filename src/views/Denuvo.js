@@ -15,9 +15,8 @@ const Denuvo = () => {
   const [GeoDataDenuvo, setGeoDataDenuvo] = useState(null)
 
   useEffect(() => {
-    fetch('http://api.ipify.org/?format=json')
-    .then(response => response.json())
-    .then(data => setGeoDataDenuvo(data.ip))
+    const response = axios.get('http://api.ipify.org/?format=json')
+    .then(response => setGeoDataDenuvo(response.data.ip))
   }, [])
 
   console.log('IP_Denuvo', GeoDataDenuvo)

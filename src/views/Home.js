@@ -12,9 +12,8 @@ const Home = () => {
   const [GeoData, setGeoData] = useState()
 
   useEffect(() => {
-    fetch('http://api.ipify.org/?format=json')
-    .then(response => response.json())
-    .then(data => setGeoData(data.ip))
+    const response = axios.get('http://api.ipify.org/?format=json')
+    .then(response => setGeoData(response.data.ip))
   }, [])
 
   const report = async () => {

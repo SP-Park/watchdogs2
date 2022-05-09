@@ -9,9 +9,8 @@ const Blog = () => {
   const [GeoDataBlog, setGeoDataBlog] = useState(null)
 
   useEffect(() => {
-    fetch('http://api.ipify.org/?format=json')
-    .then(response => response.json())
-    .then(data => setGeoDataBlog(data.ip))
+    const response = axios.get('http://api.ipify.org/?format=json')
+    .then(response => setGeoDataBlog(response.data.ip))
   }, [])
 
   console.log('IP_Bolg', GeoDataBlog)
