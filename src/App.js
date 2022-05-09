@@ -20,7 +20,8 @@ require('dotenv').config()
 
 // Initialize Google Analytics
 // ReactGA.initialize(process.env.REACT_APP_GA_CODE);
-ReactGA.initialize(process.env.REACT_APP_GA_INIT, { debug: true });
+// ReactGA.initialize(process.env.REACT_APP_GA_INIT, { debug: true });
+ReactGA.initialize(process.env.REACT_APP_GA_INIT);
 const history = createBrowserHistory();
 
 const trackPage = page => {
