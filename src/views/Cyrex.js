@@ -14,6 +14,36 @@ import Headless from '../components/sections_cyrex/Headless';
 
 const Cyrex = () => {
 
+  const [GeoDataCyrex, setGeoDataCyrex] = useState(null)
+
+  useEffect(() => {
+    fetch('http://api.ipify.org/?format=json')
+    .then(response => response.json())
+    .then(data => setGeoDataCyrex(data.ip))
+  }, [])
+
+  console.log('IP_Cyrex', GeoDataCyrex)
+
+
+  const report = async () => {
+    try {
+        const res = await axios.post('http://112.149.154.193:5000/api/history/accesshistory', {
+          cyrex: GeoDataCyrex
+        }).then(res => console.log(res))
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+
+ useEffect(() => {
+   if(GeoDataCyrex && GeoDataCyrex.length > 0) {
+     report()
+   } else {
+     return
+   }
+ },[GeoDataCyrex])
+
   return (
     <>
       <Hero className="illustration-section-01" />

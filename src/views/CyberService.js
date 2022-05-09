@@ -9,7 +9,36 @@ import Service4box from '../components/sections_cyberservice/Service4box';
 
 
 const CyberService = () => {
-  
+
+  const [GeoDataCyber, setGeoDataCyber] = useState(null)
+
+  useEffect(() => {
+    fetch('http://api.ipify.org/?format=json')
+    .then(response => response.json())
+    .then(data => setGeoDataCyber(data.ip))
+  }, [])
+
+  console.log('IP_CyberService', GeoDataCyber)
+
+  const report = async () => {
+    try {
+        const res = await axios.post('http://112.149.154.193:5000/api/history/accesshistory', {
+          cyberservice: GeoDataCyber
+        }).then(res => console.log(res))
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+
+ useEffect(() => {
+   if(GeoDataCyber && GeoDataCyber.length > 0) {
+     report()
+   } else {
+     return
+   }
+ },[GeoDataCyber])
+
   return (
     <>
       <Hero />

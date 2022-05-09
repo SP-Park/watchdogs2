@@ -12,6 +12,35 @@ import FeaturesAward from '../components/sections_1/FeaturesAward';
 
 const Denuvo = () => {
 
+  const [GeoDataDenuvo, setGeoDataDenuvo] = useState(null)
+
+  useEffect(() => {
+    fetch('http://api.ipify.org/?format=json')
+    .then(response => response.json())
+    .then(data => setGeoDataDenuvo(data.ip))
+  }, [])
+
+  console.log('IP_Denuvo', GeoDataDenuvo)
+
+  const report = async () => {
+    try {
+        const res = await axios.post('http://112.149.154.193:5000/api/history/accesshistory', {
+          denuvo: GeoDataDenuvo
+        }).then(res => console.log(res))
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+
+ useEffect(() => {
+   if(GeoDataDenuvo && GeoDataDenuvo.length > 0) {
+     report()
+   } else {
+     return
+   }
+ },[GeoDataDenuvo])
+
   return (
     <>
       <Hero className="illustration-section-01" />
