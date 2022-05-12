@@ -17,7 +17,7 @@ const Cyrex = () => {
   const [GeoDataCyrex, setGeoDataCyrex] = useState(null)
 
   useEffect(() => {
-    const response = axios.get('http://api.ipify.org/?format=json')
+    const response = axios.get('https://api.ipify.org/?format=json')
     .then(response => setGeoDataCyrex(response.data.ip))
   }, [])
 

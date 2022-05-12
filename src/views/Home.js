@@ -12,13 +12,13 @@ const Home = () => {
   const [GeoData, setGeoData] = useState()
 
   useEffect(() => {
-    const response = axios.get('http://api.ipify.org/?format=json')
+    const response = axios.get('https://api.ipify.org/?format=json')
     .then(response => setGeoData(response.data.ip))
   }, [])
 
   const report = async () => {
     try {
-        const res = await axios.post('http://112.149.154.193:5000/api/history/accesshistory', {
+        const res = await axios.post('https://112.149.154.193:5000/api/history/accesshistory', {
           home: GeoData
         }).then(res => console.log(res))
     } catch (error) {

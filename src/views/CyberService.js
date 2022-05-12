@@ -13,7 +13,7 @@ const CyberService = () => {
   const [GeoDataCyber, setGeoDataCyber] = useState(null)
 
   useEffect(() => {
-    const response = axios.get('http://api.ipify.org/?format=json')
+    const response = axios.get('https://api.ipify.org/?format=json')
     .then(response => setGeoDataCyber(response.data.ip))
   }, [])
 
