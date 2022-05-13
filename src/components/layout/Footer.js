@@ -43,12 +43,17 @@ const Footer = ({
           <div className="footer-top space-between text-xxs">
             {/* <Logo /> */}
             <Avatar alt="watchdogs" src={require('./../../assets/images/logo_mini_white.png')} style={{ marginRight: '1rem' }}/>
-            <div className="footer-copyright">Contact</div>
+            {/* <div className="footer-copyright">Contact</div> */}
             {/* <FooterSocial /> */}
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             {/* <FooterNav /> */}
-            <div className="footer-copyright"><a href="mailto:info@watchdogs.co.kr">info@watchdogs.co.kr</a></div>
+            <div className="footer-copyright">주소: 경기 안양시 동안구 벌말로 126 오비즈 타워 1208-4</div>
+            <div className="footer-copyright">주식회사 와치독스</div>
+          </div>
+          <div className="footer-bottom space-between text-xxs invert-order-desktop">
+            {/* <FooterNav /> */}
+            <div className="footer-copyright">제품 문의: <a href="mailto:info@watchdogs.co.kr">info@watchdogs.co.kr</a></div>
             <div className="footer-copyright">Made by <a href="/">WatchDogs</a>. All right reserved</div>
           </div>
         </div>
