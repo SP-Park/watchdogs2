@@ -57,10 +57,10 @@ const Testimonial = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="center-content" style={{ color: '#fff' }}/>
           <div className={tilesClasses}>
 
-            <div className="tiles-item" data-reveal-delay="200" style={{   }}>
+            <div className="tiles-item">
             <a href="https://blog.naver.com/PostView.naver?blogId=happycloude&Redirect=View&logNo=222492831136&categoryNo=102&isAfterWrite=true&isMrblogPost=false&isHappyBeanLeverage=true&contentLength=18889" target='_blank'>
             <div className="tiles-item-inner">
               <Image
@@ -135,6 +135,7 @@ const Testimonial = ({
             </div>
 
           </div>
+          <br />
           <div className="u-center-text">
             <Link to="/blog">
               <a  target='_blank' class="btn btn--white" style={{ color: '#777777' }}>Read All Blogs  &rarr;</a>

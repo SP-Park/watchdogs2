@@ -132,6 +132,9 @@ const Header = ({
                     <li>
                       <Link to="/blog" onClick={closeMenu} style={{ color: '#fff' }}>Blog</Link>
                     </li>
+                    {/* <li>
+                      <Link to="/about" onClick={closeMenu} style={{ color: '#fff' }}>About Us</Link>
+                    </li> */}
                   </ul>
                   {!hideSignin &&
                     <ul

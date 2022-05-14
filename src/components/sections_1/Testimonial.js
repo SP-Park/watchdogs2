@@ -80,7 +80,7 @@ const FeaturesSplit = ({
                    Securing PC games from crackers and cheaters
                 </div>
                 <h3 className="mt-0 mb-12 heading-secondary-lotate">
-                  2021년 8개 부문 글로벌 1위 수상한 안티치트
+                  2022년 8개 부문 글로벌 <br />1위 수상한 안티치트
                   </h3>
                 <p className="m-0">
                   Denuvo Anti-Cheat는 <br />

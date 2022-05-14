@@ -1,4 +1,9 @@
 .testimonial {
+	background-image: linear-gradient(
+		to right bottom,
+		rgba(#8F92A6, 0.4), rgba(#464B59, 0.7)),
+		url(../../../images/arrow.gif);;
+		margin-top: 3px;
 
 	.section-inner {
 		padding-top: $testimonial--padding-t__mobile;

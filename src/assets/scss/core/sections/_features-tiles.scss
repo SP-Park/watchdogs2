@@ -1,5 +1,19 @@
 .features-tiles {
 
+	background-image: 
+		linear-gradient(
+		to right bottom,
+		rgba(#8F92A6, 0.4), rgba(#464B59, 0.8)),
+		url(../../../images/cinema.gif);;
+		
+	opacity: 1;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	margin-top: 3px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+
 	.section-inner {
 		padding-top: $features-tiles--padding-t__mobile;
 		padding-bottom: $features-tiles--padding-b__mobile;

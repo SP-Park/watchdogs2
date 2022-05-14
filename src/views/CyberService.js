@@ -44,16 +44,7 @@ const CyberService = () => {
       <Service4box />
       <Expert />
       <Partners />
-      <hr />
       <Cta topDivider split />
-      {/* <FeaturesTiles />
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-      <Features4box />
-      <Support />
-      <FeaturesAward />
-      <Testimonial />
-      <hr />
-      <Cta topDivider split /> */}
     </>
   );
 }

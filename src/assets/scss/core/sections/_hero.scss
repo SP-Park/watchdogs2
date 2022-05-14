@@ -4,7 +4,8 @@
 		to right bottom,
 		rgba(#8F92A6, 0.4), rgba(#464B59, 0.7)),
 		url(../../../images/earth.gif);;
-	opacity: .8;
+		
+	opacity: 1;
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
@@ -88,7 +89,7 @@
 		to right bottom,
 		rgba(#8F92A6, 0.2), rgba(#464B59, 0.5)),
 		url(../../../images/wave.gif);;
-	opacity: .8;
+	opacity: 1;
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
@@ -167,6 +168,17 @@
 //////////////////////////////////////////////////////////////////////////////////////////////
 
 .hero-v2 {
+
+	background-image: 
+		// linear-gradient(
+		// to right bottom,
+		// rgba(#8F92A6, 0.4), rgba(#464B59, 0.7)),
+		url(../../../images/Denuvo_byIrdeto.jpg);;
+		
+	opacity: .9;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
 
 	.section-inner {
 		padding-top: $hero--padding-t__mobile;

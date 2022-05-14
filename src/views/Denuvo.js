@@ -44,13 +44,12 @@ const Denuvo = () => {
     <>
       <Hero className="illustration-section-01" />
       <FeaturesTiles />
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
+      <FeaturesSplit invertMobile  imageFill className="illustration-section-02" />
       <Features4box />
       <Support />
       <FeaturesAward />
       <Testimonial />
-      <hr />
-      <Cta topDivider split />
+      <Cta  />
     </>
   );
 }

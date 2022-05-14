@@ -12,6 +12,7 @@ import Blog from './views/Blog';
 import Home from './views/Home';
 import Cyrex from './views/Cyrex';
 import Denuvo from './views/Denuvo';
+import AboutUS from './views/AboutUs';
 import CyberService from './views/CyberService';
 
 import ReactGA from "react-ga";
@@ -61,8 +62,9 @@ const App = () => {
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/v1/product" component={Denuvo} layout={LayoutDefault} />
           <AppRoute exact path="/v2/cyrex" component={Cyrex} layout={LayoutDefault} />
-          <AppRoute exact path="/blog" component={Blog} layout={LayoutDefault} />
           <AppRoute exact path="/v3/cyberservice" component={CyberService} layout={LayoutDefault} />
+          <AppRoute exact path="/blog" component={Blog} layout={LayoutDefault} />
+          {/* <AppRoute exact path="/about" component={AboutUS} layout={LayoutDefault} /> */}
         </Switch>
       )} />
   );

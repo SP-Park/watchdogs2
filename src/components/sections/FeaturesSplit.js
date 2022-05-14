@@ -61,7 +61,7 @@ const FeaturesSplit = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <SectionHeader data={sectionHeader} className="center-content" style={{ color: '#fff' }}/>
           <div className={splitClasses}>
 
             <div className="split-item">
@@ -72,7 +72,7 @@ const FeaturesSplit = ({
                 <h3 className="mt-0 mb-12 heading-secondary-lotate">
                   클라이언트: 난독화 및 위변조 방지 구축
                   </h3>
-                <p className="m-0">
+                <p className="m-0" style={{ color: '#fff' }}>
                   게임 바이너리 난독화 및 위변조 방지의 글로벌 1위<br /> 데누보를 고려하십시오 <br />
                   해커 집단에서 포기 선언을 한 전례도 있을 만큼 <br />실전에 강합니다. <br />
                   하지만 적용은 간단합니다. 최종 결과물에 적용되므로 아무런 코드 수정도, 성능의 제약도 없습니다. <br />
@@ -101,7 +101,7 @@ const FeaturesSplit = ({
                 <h3 className="mt-0 mb-12 heading-secondary-lotate">
                   게임 치팅 방지를 위한 보호 구축
                   </h3>
-                <p className="m-0">
+                <p className="m-0" style={{ color: '#fff' }}>
                   글로벌 1위 수상의 강력한 게임 안티 치트 솔루션 <br />데누보를 고려 하십시오<br />
                   모바일, PC, 콘솔을 모두 지원하며 '봇, 엔드포인트 <br />보안, APT 방어' 등 성능 측면에서 1위 입니다. <br />
                   서비스 측면이 걱정이신가요? <br />고객서비스 부분도 1위를 달성하였습니다. <br />
@@ -131,7 +131,7 @@ const FeaturesSplit = ({
                 <h3 className="mt-0 mb-12 heading-secondary-lotate">
                   API 엔드포인트 보안의 점검
                   </h3>
-                <p className="m-0">
+                <p className="m-0" style={{ color: '#fff' }}>
                   네트워크 구간의 보안은 '서버에서의 인증'과 'HTTPS'의 사용입니다. <br />
                   과연 제대로 하고 있을까요? <br /> 출시 후에 문제가 된 적은 없었을까요? <br />
                   20년간 게임 서버 API만 15000여개 이상 <br />진단한 노하우로 정확하게 <br />
