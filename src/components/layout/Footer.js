@@ -53,6 +53,11 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             {/* <FooterNav /> */}
+            <div className="footer-copyright">사업자 번호: 835-86-01980</div>
+            <div className="footer-copyright">대표: 신명환</div>
+          </div>
+          <div className="footer-bottom space-between text-xxs invert-order-desktop">
+            {/* <FooterNav /> */}
             <div className="footer-copyright">제품 문의: <a href="mailto:info@watchdogs.co.kr">info@watchdogs.co.kr</a></div>
             <div className="footer-copyright">Made by <a href="/">WatchDogs</a>. All right reserved</div>
           </div>

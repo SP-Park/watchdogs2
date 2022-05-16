@@ -23,9 +23,11 @@ const Denuvo = () => {
 
   const report = async () => {
     try {
-        const res = await axios.post('http://112.149.154.193:5000/api/history/accesshistory', {
-          denuvo: GeoDataDenuvo
-        }).then(res => console.log(res))
+        // const res = await axios.post('http://112.149.154.193:5000/api/history/accesshistory', {
+        //   denuvo: GeoDataDenuvo
+        // }).then(res => console.log(res))
+        const res = await axios.get('https://118.32.34.39:3000/api/test')
+        .then(res => console.log(res))
     } catch (error) {
       console.error(error);
     }

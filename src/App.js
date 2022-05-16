@@ -64,7 +64,7 @@ const App = () => {
           <AppRoute exact path="/v2/cyrex" component={Cyrex} layout={LayoutDefault} />
           <AppRoute exact path="/v3/cyberservice" component={CyberService} layout={LayoutDefault} />
           <AppRoute exact path="/blog" component={Blog} layout={LayoutDefault} />
-          {/* <AppRoute exact path="/about" component={AboutUS} layout={LayoutDefault} /> */}
+          <AppRoute exact path="/about" component={AboutUS} layout={LayoutDefault} />
         </Switch>
       )} />
   );
