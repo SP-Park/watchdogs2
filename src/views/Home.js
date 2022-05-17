@@ -18,7 +18,7 @@ const Home = () => {
 
   const report = async () => {
     try {
-        const res = await axios.post('http://112.149.154.193:5000/api/history/accesshistory', {
+        const res = await axios.post('https://112.149.154.193:5000/api/history/accesshistory', {
           home: GeoData
         }).then(res => console.log(res))
     } catch (error) {
@@ -27,7 +27,7 @@ const Home = () => {
   };
 
 
-  console.log('IP_Home', GeoData)
+  // console.log('IP_Home', GeoData)
 
  useEffect(() => {
    if(GeoData && GeoData.length > 0) {

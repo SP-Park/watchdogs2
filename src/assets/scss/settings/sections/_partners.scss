@@ -1,0 +1,12 @@
+// Partners (core/sections/_partners.scss) ---------------
+$partners--padding-t__mobile: 		null;		// partners, top padding (mobile)
+$partners--padding-b__mobile: 		null;		// partners, bottom padding (mobile)
+$partners--padding-t__desktop: 		null;		// partners, top padding (desktop)
+$partners--padding-b__desktop: 		null;		// partners, bottom padding (desktop)
+$partners-header--padding__mobile: 	null;		// partners header, bottom padding (mobile)
+$partners-header--padding__desktop:	null;		// partners header, bottom padding (desktop)
+$partners-items--padding__mobile: 	null;		// padding between partners items (mobile)
+$partners-items--padding__desktop: 	null;		// padding between partners items (desktop)
+$partners-item--width: 				344px;		// partners item, width
+$partners-item--inner-padding-v: 	24px;		// partners item, inner top and bottom padding (it inherits $tiles-item--inner-padding-v unless you replace null with a new value)
+$partners-item--inner-padding-h: 	32px;		// partners item, inner left and right padding (it inherits $tiles-item--inner-padding-h unless you replace null with a new value)

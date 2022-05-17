@@ -1,0 +1,82 @@
+.hero_about {
+
+	background-image: linear-gradient(
+		to right bottom,
+		rgba(#8F92A6, 0.4), rgba(#464B59, 0.7)),
+		url(../../../images/back-1.jpg);;
+		
+	opacity: 1;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+
+	.section-inner {
+		padding-top: $hero--padding-t__mobile;
+		padding-bottom: $hero--padding-b__mobile;
+	}
+}
+
+.hero_about-inner {
+
+	// Affects only hero full
+	> .hero_about-content + .hero-figure,
+	> .hero_about-figure + .hero-content {
+		margin-top: $hero--inner-padding-v_mobile;
+	}
+
+	> .hero_about-figure {
+
+		> a {
+			display: inline-flex;
+			// prevents stretching
+			align-items: center;
+			vertical-align: top;
+		}
+	}
+}
+
+@include media( '<=medium' ) {
+
+	.hero_about {
+
+		.split-wrap {
+
+			.split-item {
+
+				.split-item-content {
+					margin-bottom: $hero--inner-padding-v_mobile;
+				}
+			}
+
+			&.invert-mobile {
+
+				.split-item {
+
+					.split-item-image {
+						margin-bottom: $hero--inner-padding-v_mobile;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include media( '>medium' ) {
+
+	.hero_about {
+
+		.section-inner {
+			padding-top: $hero--padding-t__desktop;
+			padding-bottom: $hero--padding-b__desktop;
+		}
+	}
+
+	.hero_about-inner {
+
+		// Affects only hero full
+		> .hero_about-content + .hero_about-figure,
+		> .hero_about-figure + .hero_about-content {
+			margin-top: $hero--inner-padding-v_desktop;
+		}
+	}
+}

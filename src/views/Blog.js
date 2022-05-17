@@ -13,11 +13,11 @@ const Blog = () => {
     .then(response => setGeoDataBlog(response.data.ip))
   }, [])
 
-  console.log('IP_Bolg', GeoDataBlog)
+  // console.log('IP_Bolg', GeoDataBlog)
 
   const report = async () => {
     try {
-        const res = await axios.post('http://112.149.154.193:5000/api/history/accesshistory', {
+        const res = await axios.post('https://112.149.154.193:5000/api/history/accesshistory', {
           blog: GeoDataBlog
         }).then(res => console.log(res))
     } catch (error) {

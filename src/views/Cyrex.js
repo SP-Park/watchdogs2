@@ -22,12 +22,12 @@ const Cyrex = () => {
   }, [])
 
   
-  console.log('IP_Cyrex', GeoDataCyrex)
+  // console.log('IP_Cyrex', GeoDataCyrex)
 
 
   const report = async () => {
     try {
-        const res = await axios.post('http://112.149.154.193:5000/api/history/accesshistory', {
+        const res = await axios.post('https://112.149.154.193:5000/api/history/accesshistory', {
           cyrex: GeoDataCyrex
         }).then(res => console.log(res))
     } catch (error) {

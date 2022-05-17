@@ -1,8 +1,9 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 // import sections
+import Intro from '../components/sections_about/Intro';
 import Partners from '../components/sections_about/Partners';
-import Support from '../components/sections_about/Support';
+
 
 
 const AboutUS = () => {
@@ -14,11 +15,11 @@ const AboutUS = () => {
     .then(response => setGeoDataAboutUS(response.data.ip))
   }, [])
 
-  console.log('IP_AboutUS', GeoDataAboutUS)
+  // console.log('IP_AboutUS', GeoDataAboutUS)
 
   const report = async () => {
     try {
-        const res = await axios.post('http://112.149.154.193:5000/api/history/accesshistory', {
+        const res = await axios.post('https://112.149.154.193:5000/api/history/accesshistory', {
           aboutus: GeoDataAboutUS
         }).then(res => console.log(res))
     } catch (error) {
@@ -37,8 +38,8 @@ const AboutUS = () => {
 
   return (
     <>
+      <Intro />
       <Partners />
-      <Support />
     </>
   );
 }
