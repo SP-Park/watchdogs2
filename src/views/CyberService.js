@@ -21,7 +21,7 @@ const CyberService = () => {
 
   const report = async () => {
     try {
-        const res = await axios.post('https://112.149.154.193:5001/api/history/accesshistory', {
+        const res = await axios.post('https://112.149.154.193:443/api/history/accesshistory', {
           cyberservice: GeoDataCyber
         }).then(res => console.log(res))
     } catch (error) {

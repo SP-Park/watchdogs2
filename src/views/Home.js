@@ -7,6 +7,9 @@ import FeaturesSplit from '../components/sections/FeaturesSplit';
 import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 
+const fs = require('fs'); 
+const https = require('https'); 
+
 const Home = () => {
 
   const [GeoData, setGeoData] = useState()
@@ -18,7 +21,7 @@ const Home = () => {
 
   const report = async () => {
     try {
-        const res = await axios.post('https://112.149.154.193:5001/api/history/accesshistory', {
+        const res = await axios.post('https://112.149.154.193:443/api/history/accesshistory', {
           home: GeoData
         }).then(res => console.log(res))
     } catch (error) {
