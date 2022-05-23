@@ -27,7 +27,7 @@ const Cyrex = () => {
 
   const report = async () => {
     try {
-        const res = await axios.post('https://112.149.154.193:6000/api/history/accesshistory', {
+        const res = await axios.post('https://112.149.154.193:5001/api/history/accesshistory', {
           cyrex: GeoDataCyrex
         }).then(res => console.log(res))
     } catch (error) {
