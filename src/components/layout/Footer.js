@@ -53,7 +53,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             {/* <FooterNav /> */}
-            <div className="footer-copyright">사업자 번호: 835-86-01980</div>
+            <div className="footer-copyright">대표 번호: 031-360-1196 | 사업자 번호: 835-86-01980</div>
             <div className="footer-copyright">대표: 신명환</div>
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
