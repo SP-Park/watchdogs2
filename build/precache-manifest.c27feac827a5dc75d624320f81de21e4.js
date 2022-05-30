@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae09f713c5b928b8b7f61f7abc5df9ef",
+    "revision": "e52fc362dbd5b63d77c2ccdf3be58b5f",
     "url": "/index.html"
   },
   {
-    "revision": "fa0428617b4a1063878e",
+    "revision": "b61c02f0d42bf2ab45a8",
     "url": "/static/css/main.3d1fd8a5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.0ea4f667.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa0428617b4a1063878e",
-    "url": "/static/js/main.1f353007.chunk.js"
+    "revision": "b61c02f0d42bf2ab45a8",
+    "url": "/static/js/main.9ca4533d.chunk.js"
   },
   {
     "revision": "97d91114e7eaba3350c4",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/2020_wallpaper.68d8c823.jpg"
   },
   {
-    "revision": "8f55155e78f35c5bee4c0ad97a053ae6",
-    "url": "/static/media/2021Cybersecurity.8f55155e.png"
+    "revision": "ebc10c86167ffd82a03799c0be30287b",
+    "url": "/static/media/2022.ebc10c86.png"
   },
   {
     "revision": "54a1bd937b077417f7037df1be35de9c",
