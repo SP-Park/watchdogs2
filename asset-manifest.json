@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d1fd8a5.chunk.css",
-    "main.js": "/static/js/main.9ca4533d.chunk.js",
-    "main.js.map": "/static/js/main.9ca4533d.chunk.js.map",
+    "main.css": "/static/css/main.fee39c15.chunk.css",
+    "main.js": "/static/js/main.4d24006b.chunk.js",
+    "main.js.map": "/static/js/main.4d24006b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f950abd.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f950abd.js.map",
-    "static/js/2.0ea4f667.chunk.js": "/static/js/2.0ea4f667.chunk.js",
-    "static/js/2.0ea4f667.chunk.js.map": "/static/js/2.0ea4f667.chunk.js.map",
+    "static/js/2.76cd5456.chunk.js": "/static/js/2.76cd5456.chunk.js",
+    "static/js/2.76cd5456.chunk.js.map": "/static/js/2.76cd5456.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c27feac827a5dc75d624320f81de21e4.js": "/precache-manifest.c27feac827a5dc75d624320f81de21e4.js",
+    "precache-manifest.1353c4e131832dfc632ec1f301f81a34.js": "/precache-manifest.1353c4e131832dfc632ec1f301f81a34.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3d1fd8a5.chunk.css.map": "/static/css/main.3d1fd8a5.chunk.css.map",
-    "static/js/2.0ea4f667.chunk.js.LICENSE.txt": "/static/js/2.0ea4f667.chunk.js.LICENSE.txt",
+    "static/css/main.fee39c15.chunk.css.map": "/static/css/main.fee39c15.chunk.css.map",
+    "static/js/2.76cd5456.chunk.js.LICENSE.txt": "/static/js/2.76cd5456.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/static/media/wave.93cf9ebc.gif",
     "static/media/2022.png": "/static/media/2022.ebc10c86.png",
     "static/media/Anti_Cheat.png": "/static/media/Anti_Cheat.54a1bd93.png",
@@ -32,8 +32,11 @@
     "static/media/director.png": "/static/media/director.c834c097.png",
     "static/media/doom.jpeg": "/static/media/doom.8f763caf.jpeg",
     "static/media/gdc-2022.png": "/static/media/gdc-2022.68f5f5ea.png",
+    "static/media/getFetch.cjs": "/static/media/getFetch.51c934af.cjs",
     "static/media/hack-1.jpg": "/static/media/hack-1.54e0bac0.jpg",
     "static/media/identity.jpg": "/static/media/identity.356c6fba.jpg",
+    "static/media/japan.png": "/static/media/japan.01ac1f9a.png",
+    "static/media/korea.png": "/static/media/korea.f09f4465.png",
     "static/media/law.png": "/static/media/law.191e1d08.png",
     "static/media/load2.PNG": "/static/media/load2.affc6a22.PNG",
     "static/media/load3.PNG": "/static/media/load3.a04f12a0.PNG",
@@ -50,8 +53,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8f950abd.js",
-    "static/js/2.0ea4f667.chunk.js",
-    "static/css/main.3d1fd8a5.chunk.css",
-    "static/js/main.9ca4533d.chunk.js"
+    "static/js/2.76cd5456.chunk.js",
+    "static/css/main.fee39c15.chunk.css",
+    "static/js/main.4d24006b.chunk.js"
   ]
 }
