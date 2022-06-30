@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const propTypes = {
   ...SectionProps.types,
@@ -25,7 +26,7 @@ const Cta = ({
   split,
   ...props
 }) => {
-
+  const { t } = useTranslation();
   const outerClasses = classNames(
     'cta section center-content-mobile',
     topOuterDivider && 'has-top-divider',
@@ -53,12 +54,12 @@ const Cta = ({
         >
           <div className="cta-slogan">
             <h3 className="m-0">
-              API 엔드포인트에 대한 점검이 필요하신가요?
+            {t("section2.67")}
               </h3>
           </div>
           <div className="cta-action">
           <Link to="/v2/cyrex">
-              <a target='blank' class="btn btn--white" style={{ color: '#777777' }}>See Cyrex  &rarr;</a>
+              <a target='blank' class="btn btn--white" style={{ color: '#777777' }}>{t("section2.68")}&rarr;</a>
           </Link>
           </div>
         </div>

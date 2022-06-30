@@ -4,6 +4,8 @@ import { SectionProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 
+import { useTranslation } from 'react-i18next';
+
 const propTypes = {
   ...SectionProps.types
 }
@@ -23,6 +25,8 @@ const Hero = ({
   ...props
 }) => {
 
+  const { t } = useTranslation();
+  
   const [videoModalActive, setVideomodalactive] = useState(false);
 
   const openModal = (e) => {
@@ -59,12 +63,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 heading-secondary" >
-
-              게임보안 <span className="heading-secondary-lotate">클라이언트</span> 부터 <span className="heading-secondary-lotate">서버</span>까지
+            {t("section.1")} <span className="heading-secondary-lotate">{t("section.2")}</span> {t("section.3")} <span className="heading-secondary-lotate">{t("section.4")}</span>{t("section.5")}
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32" style={{ color: '#fff' }} >
-                클라이언트 보호: 글로벌 1위 안티 템퍼 / 안티 치트 솔루션 <br /> API 엔드포인트: 20년 경력의 게임 전문회사에 의한 침투테스트.
+              {t("section.6")} <br /> {t("section.7")}
                 </p>
             </div>
           </div>

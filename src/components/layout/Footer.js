@@ -5,6 +5,7 @@ import Logo from './partials/Logo';
 import Avatar from '@material-ui/core/Avatar';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
+import { useTranslation } from 'react-i18next';
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,
@@ -22,7 +23,7 @@ const Footer = ({
   topDivider,
   ...props
 }) => {
-
+  const { t } = useTranslation();
   const classes = classNames(
     'site-footer center-content-mobile',
     topOuterDivider && 'has-top-divider',
@@ -48,17 +49,17 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             {/* <FooterNav /> */}
-            <div className="footer-copyright">주소: 경기 안양시 동안구 벌말로 126 오비즈 타워 1208-4</div>
-            <div className="footer-copyright">주식회사 와치독스</div>
+            <div className="footer-copyright">{t("footer.1")}</div>
+            <div className="footer-copyright">{t("footer.2")}</div>
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             {/* <FooterNav /> */}
-            <div className="footer-copyright">대표 번호: 031-360-1196 | 사업자 번호: 835-86-01980</div>
-            <div className="footer-copyright">대표: 신명환</div>
+            <div className="footer-copyright">{t("footer.3")}</div>
+            <div className="footer-copyright">{t("footer.4")}</div>
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             {/* <FooterNav /> */}
-            <div className="footer-copyright">제품 문의: <a href="mailto:info@watchdogs.co.kr">info@watchdogs.co.kr</a></div>
+            <div className="footer-copyright">{t("footer.5")} <a href="mailto:info@watchdogs.co.kr">info@watchdogs.co.kr</a></div>
             <div className="footer-copyright">Made by <a href="/">WatchDogs</a>. All right reserved</div>
           </div>
         </div>

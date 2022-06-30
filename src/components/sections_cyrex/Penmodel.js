@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import { useTranslation } from 'react-i18next';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -21,7 +22,7 @@ const FeaturesTilesPen = ({
   pushLeft,
   ...props
 }) => {
-
+  const { t } = useTranslation();
   const [videoModalActive, setVideomodalactive] = useState(false);
 
   const openModal = (e) => {
@@ -44,13 +45,13 @@ const FeaturesTilesPen = ({
       <div className="container-sm">
           <div className="u-center-text">
             <h1>
-              침투 테스트 3 모델
+            {t("section3.23")}
             </h1>
             <div className="container-sm">
               <p className="u-center-text" style={{ color: '#fff' }}>
-                블랙 박스: 최소한의 정보 및 권한제공, 가장 현실적인 침투 테스트 <br />
-                그레이 박스: 부분적인 정보제공, 모든 권한제공, 가장 흔한 침투 테스트 <br />
-                화이트 박스: 소스코드를 포함한 모든 정보 제공, 모든 권한제공, 가장 완벽한 침투 테스트 <br />
+              {t("section3.24")}<br />
+              {t("section3.25")}<br />
+              {t("section3.26")}<br />
               </p>
             </div>
           </div>

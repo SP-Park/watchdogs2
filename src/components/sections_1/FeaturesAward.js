@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { SectionTilesProps } from '../../utils/SectionProps';
 
 const propTypes = {
@@ -20,6 +21,7 @@ const FeaturesAward = ({
   ...props
 }) => {
 
+  const { t } = useTranslation();
 
   return (
     <section class="section-book">
@@ -32,25 +34,24 @@ const FeaturesAward = ({
                         </h2>
                     </div>
                     <div>
-                     <h3 class="heading-tertiary-lotate u-margin-bottom-small">1. 안티 템퍼</h3>
+                     <h3 class="heading-tertiary-lotate u-margin-bottom-small">{t("section1.65")}</h3>
                         <p class="paragraph-1">
-                          - 클라이언트 보안 (난독화 및 위변조 방지) <br />
+                          - {t("section1.66")} <br />
                           - Digital Rights Management <br />
                           - reach Protection <br />
-                          - 런타임 애플리케이션 보호 <br />
-                          - 런타임 애플리케이션 자가보호 <br />
+                          - {t("section1.67")} <br />
+                          - {t("section1.68")} <br />
                         </p>
-                        <h3 class="heading-tertiary-lotate u-margin-bottom-small">2. 안티 치트 및 관리 웹</h3>
+                        <h3 class="heading-tertiary-lotate u-margin-bottom-small">{t("section1.69")}</h3>
                         <p class="paragraph-1">
-                          - APT 방어 <br />
-                          - 봇 방어 <br />
-                          - 엔드포인트 보안 <br />
-                          - GDPR 개인정보 규정 준수 <br />
-                          - 고객 서비스 관리 <br />
-                          - 보안 자동화 <br />
-                          - 유저 행위 분석 <br />
-                          - 데이터 중심 보안 (Data-centric Security)<br />
-
+                          - {t("section1.70")} <br />
+                          - {t("section1.71")} <br />
+                          - {t("section1.72")} <br />
+                          - {t("section1.73")} <br />
+                          - {t("section1.74")} <br />
+                          - {t("section1.75")} <br />
+                          - {t("section1.76")} <br />
+                          - {t("section1.77")} <br />
                         </p>
                     </div>
                     <div >

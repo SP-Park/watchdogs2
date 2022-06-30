@@ -1,6 +1,7 @@
 import React from 'react';
-import { SectionTilesProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
+import { useTranslation } from 'react-i18next';
+import { SectionTilesProps } from '../../utils/SectionProps';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -21,6 +22,7 @@ const FeaturesTilesPen = ({
   ...props
 }) => {
 
+  const { t } = useTranslation();
 
   return (
     <section
@@ -32,7 +34,7 @@ const FeaturesTilesPen = ({
       <div className="container" style={{  }}>
         <div class="u-center-text u-margin-bottom-small">
             <h2 class="heading-secondary">
-                로드 테스트: 게임 부하 테스트
+              {t("section3.44")} 
             </h2>
 
             <div className="container-xs">
@@ -44,24 +46,24 @@ const FeaturesTilesPen = ({
                   height={504} />
               <br />
               <p className="m-0 mb-32"  style={{ color: '#fff' }}>
-                응용 프로그램의 로드 테스트는 지속적인 작동에 필수적입니다.<br />
-                시스템이 어려움을 겪거나 실패하기 전에 <br />
-                얼마나 많은 지원을 받을 수 있는지 아는 것이 중요합니다. <br />
-                서비스나 애플리케이션에 관계없이 <br />
-                당사의 부하 테스트는 필요한 사용자 수를 시뮬레이션합니다.<br />
+              {t("section3.45")}<br />
+              {t("section3.46")}<br />
+              {t("section3.47")}<br />
+              {t("section3.48")}<br />
+              {t("section3.49")}<br />
                 <br />
-                헤드리스 솔루션을 사용하면 하드웨어 제한에 얽매이지 않습니다. <br />
-                필요한 만큼의 트래픽을 제공하여 애플리케이션이 부하를 처리하는 <br />
-                방법뿐만 아니라 시뮬레이션된 사용자 동작도 테스트할 수 있습니다.<br />
+                {t("section3.50")}<br />
+                {t("section3.51")}<br />
+                {t("section3.52")}<br />
                 
-                수백, 수천 또는 수백만 개의 연결을 처리할 수 있는지 여부를<br />
-                확인해야 하는 경우라면, 당사의 서비스는 이러한 사용자가 <br />
-                시스템에 연결하고 상호 작용하는 전체 프로세스를 시뮬레이션합니다.
+                {t("section3.53")}<br />
+                {t("section3.54")}<br />
+                {t("section3.55")}
               <br />
               <br />
               <span className="heading-secondary-lotate">
-                부하 테스트 서비스는 트래픽이 폭주할 때 <br />
-                게임이 어떤 결과를 가져올 수 있는지 정확히 알려 드립니다.
+              {t("section3.56")}<br />
+              {t("section3.57")}
               </span>
               </p>
             </div>

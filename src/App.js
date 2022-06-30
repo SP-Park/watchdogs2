@@ -33,7 +33,6 @@ const trackPage = page => {
 
 
 const App = () => {
-
   // const history = createBrowserHistory();
 
   // useEffect(() => {

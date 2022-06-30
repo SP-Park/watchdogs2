@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { useTranslation } from 'react-i18next';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -22,7 +23,7 @@ const FeaturesTiles = ({
   pushLeft,
   ...props
 }) => {
-
+  const { t } = useTranslation();
   const outerClasses = classNames(
     'features-tiles section',
     topOuterDivider && 'has-top-divider',
@@ -43,11 +44,6 @@ const FeaturesTiles = ({
     pushLeft && 'push-left'
   );
 
-  const sectionHeader = {
-    title: '세계에서 검증받은 1위의 솔루션으로 게임자산을 보호하세요.',
-    paragraph: '2022 Cybersecurity 13개 부분 글로벌 1위 수상 — Denuvo'
-  };
-
   return (
     <section
       {...props}
@@ -55,8 +51,14 @@ const FeaturesTiles = ({
     >
       <div className="container mt-20">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" style={{ color: '#fff' }} />
-          <br />
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary" style={{ color: '#fff' }}>
+            {t("section.8")}
+          </h2>
+          <h4 class="heading-secondary" style={{ color: '#fff' }}>
+            {t("section.9")}
+          </h4>
+        </div>
           <br />
           <div className={tilesClasses}>
 
@@ -76,13 +78,13 @@ const FeaturesTiles = ({
                     Anti-Cheat
                     </h4>
                   <p className="m-0 text-sm" style={{ color: '#fff' }}>
-                    APT 방어<br />
-                    봇 방어<br />
-                    엔드포인트 보안 <br />
-                    GDPR 개인정보 규정 준수 <br />
-                    고객 서비스 관리 <br />
-                    보안 자동화 <br />
-                    유저 행위 분석
+                  {t("section.10")}<br />
+                  {t("section.11")}<br />
+                  {t("section.12")} <br />
+                  {t("section.13")} <br />
+                  {t("section.14")} <br />
+                  {t("section.15")} <br />
+                  {t("section.16")}
                   </p>
                 </div>
               </div>
@@ -104,11 +106,11 @@ const FeaturesTiles = ({
                     Anti-Tamper
                     </h4>
                   <p className="m-0 text-sm" style={{ color: '#fff' }}>
-                    클라이언트 보안 <br />(난독화 및 위변조 방지)<br />
+                  {t("section.17")} <br />({t("section.18")})<br />
                     Digital Rights Management <br />
                     Breach Protection <br />
-                    런타임 애플리케이션 보호 <br />
-                    런타임 애플리케이션 자가보호
+                    {t("section.19")} <br />
+                    {t("section.20")}
                   </p>
                 </div>
               </div>
@@ -130,7 +132,7 @@ const FeaturesTiles = ({
                     Telemetry
                   </h4>
                   <p className="m-0 text-sm" style={{ color: '#fff' }}>
-                    데이터 중심 보안 <br /> 
+                  {t("section.21")} <br /> 
                     (Data-centric Security)
                   </p>
                 </div>
@@ -138,8 +140,8 @@ const FeaturesTiles = ({
             </div>
             <div>
               <p className="m-0 mt-32 mb-32 heading-secondary">
-                중국 등 글로벌 해커들과 싸워가며 쌓아온 노하우로<br />
-                2022년 최신 글로벌 1위 기술력을 인정 받았습니다. <br/>
+              {t("section.22")}<br />
+              {t("section.23")} <br/>
               </p>
             </div>
 

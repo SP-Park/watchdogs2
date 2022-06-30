@@ -4,6 +4,16 @@ import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 import Avatar from '@material-ui/core/Avatar';
+import IconButton from '@material-ui/core/IconButton';
+import Popover from '@material-ui/core/Popover';
+import Typography from '@material-ui/core/Typography';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemIcon from '@material-ui/core/ListItemIcon';
+import ListItemText from '@material-ui/core/ListItemText';
+
+import i18next from 'i18next';
+
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -75,6 +85,26 @@ const Header = ({
     className
   );
 
+  const storedValue = localStorage.getItem('i18nextLng');
+
+  const [open, setOpen] = useState(null);
+  const [flag, setFlag] = useState(storedValue);
+
+  const handleOpen = (event) => {
+    setOpen(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    console.log('close')
+    setOpen(null);
+  };
+
+  function handleClick(lang) {
+    i18next.changeLanguage(lang)
+    setFlag(lang)
+    setOpen(null)
+  }
+
   return (
     <header
       {...props}
@@ -91,7 +121,73 @@ const Header = ({
           <Avatar alt="watchdogs" src={require('./../../assets/images/logo_mini_white.png')} style={{ marginRight: '1rem' }}/>
           </Link>
           <span className="heading-primary">WatchDogs</span>
-          
+          <IconButton aria-label="language" onClick={handleOpen} >
+            {flag === 'ko' 
+            ?
+            <img 
+                alt="korea flag" 
+                src={require('./../../assets/images/korea.png')} 
+                style={{ width: '30px' }}  
+            />
+            : (
+              flag === 'jp'
+              ?
+              <img 
+                alt="japan flag" 
+                src={require('./../../assets/images/japan.png')} 
+                style={{ width: '30px' }}  
+              />
+              :
+              <img 
+                alt="korea flag" 
+                src={require('./../../assets/images/korea.png')} 
+                style={{ width: '30px' }}  
+              />
+            ) 
+            }
+
+          </IconButton>
+
+          <Popover
+            open={Boolean(open)}
+            anchorEl={open}
+            onClose={handleClose}
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'center',
+            }}
+            transformOrigin={{
+              vertical: 'top',
+              horizontal: 'center',
+            }}
+          >
+            <List component="nav" aria-label="main mailbox folders" style={{ backgroundColor: '#DCDCDC', width: '60px' }}>
+              <ListItem button>
+                <ListItemIcon>
+                  <img 
+                    alt="korea flag" 
+                    src={require('./../../assets/images/korea.png')} 
+                    style={{ width: '30px' }}  
+                    onClick={()=>handleClick('ko')}
+                  />
+                </ListItemIcon>
+              </ListItem>
+              <ListItem button>
+                <ListItemIcon>
+                  <img 
+                    alt="japan flag" 
+                    src={require('./../../assets/images/japan.png')} 
+                    style={{ width: '30px' }}  
+                    onClick={()=>handleClick('jp')}
+                  />
+                </ListItemIcon>
+              </ListItem>
+            </List>
+          </Popover>
+
+
+
+
           {!hideNav &&
             <>
               <button

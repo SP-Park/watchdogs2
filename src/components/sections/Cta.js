@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import Input from '../elements/Input';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const propTypes = {
   ...SectionProps.types,
@@ -26,7 +26,7 @@ const Cta = ({
   split,
   ...props
 }) => {
-
+  const { t } = useTranslation();
   const outerClasses = classNames(
     'cta section center-content-mobile',
     topOuterDivider && 'has-top-divider',
@@ -54,7 +54,7 @@ const Cta = ({
         >
           <div className="cta-slogan">
             <h3 className="m-0">
-              글로벌 수준의 해커에 대비하시나요?  
+              {t("section.52")}  
             </h3>
           </div>
           <div className="cta-action">

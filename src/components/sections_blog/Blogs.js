@@ -1,17 +1,13 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
-import Image from '../elements/Image';
-
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-
+import { useTranslation } from 'react-i18next';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -44,14 +40,6 @@ const Testimonial = ({
   ...props
 }) => {
   const classes = useStyles();
-  const outerClasses = classNames(
-    'testimonial section',
-    topOuterDivider && 'has-top-divider',
-    bottomOuterDivider && 'has-bottom-divider',
-    hasBgColor && 'has-bg-color',
-    invertColor && 'invert-color',
-    className
-  );
 
   const innerClasses = classNames(
     'testimonial-inner section-inner',
@@ -63,6 +51,7 @@ const Testimonial = ({
     'tiles-wrap',
     pushLeft && 'push-left'
   );
+  const { t } = useTranslation();
 
   return (
     <section
@@ -74,11 +63,11 @@ const Testimonial = ({
         <div className={innerClasses}>
           <div class="u-center-text u-margin-bottom-big">
               <h2 class="heading-tertiary-4">
-                WatchDogs Blogs
+               {t("section4.1")}
               </h2>
               <div className="container-xs">
                 <p className="m-0 mb-32" style={{ color: '#fff' }}>
-                 게임 보안의 트렌드
+                {t("section4.2")}
                 </p>
             </div>
             </div>
@@ -131,14 +120,6 @@ const Testimonial = ({
                   </Typography>
                 </CardContent>
               </CardActionArea>
-              
-                {/* <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-low">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="https://irdeto.com/denuvo/" target='blank'>Denuvo</a>
-                  </span>
-                </div> */}
             </Card>
             </div>
               </div>

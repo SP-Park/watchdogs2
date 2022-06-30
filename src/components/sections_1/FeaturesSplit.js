@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
+import { useTranslation } from 'react-i18next';
 import { SectionProps } from '../../utils/SectionProps';
 
 const propTypes = {
@@ -20,7 +21,7 @@ const FeaturesSplit = ({
   invertColor,
   ...props
 }) => {
-
+  const { t } = useTranslation();
   const [videoModalActive, setVideomodalactive] = useState(false);
   const outerClasses = classNames(
     'hero-v1 section center-content',
@@ -48,11 +49,11 @@ const FeaturesSplit = ({
           <div className="hero-v1-content">
             <h1 className="mt-0 mb-16 heading-secondary">
 
-              게임보안은 <span className="heading-secondary-lotate">데누보</span>에게 맡기세요. 
+            {t("section1.27")} <span className="heading-secondary-lotate">{t("section1.28")}</span>{t("section1.29")} 
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32"  style={{ color: '#fff' }}>
-                데누보: 적용, 1차 성능 및 보안 테스트까지 수행.<br /> 개발 및 보안 담당자: 게임 일정에만 집중.
+              {t("section1.30")}<br /> {t("section1.31")}
                 </p>
             </div>
           </div>
@@ -73,7 +74,7 @@ const FeaturesSplit = ({
           <br />
           <div className="container-xs">
               <p className="m-0 mb-32"  style={{ color: '#fff' }}>
-                제공해 드리는 스크립트를 통해 <br /> <span className="heading-secondary-lotate">10분</span>내 클라이언트 난독화 및 위변조 방지 적용 완료.<br /> 성능에 영향이 없는 글로벌 1위의 클라이언트 보안 적용.
+              {t("section1.32")} <br /> <span className="heading-secondary-lotate">{t("section1.33")}</span>{t("section1.34")}<br />{t("section1.35")}
                 </p>
             </div>
         </div>

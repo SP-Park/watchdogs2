@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
+import { useTranslation } from 'react-i18next';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -21,7 +22,7 @@ const FeaturesTilesPen = ({
   pushLeft,
   ...props
 }) => {
-
+  const { t } = useTranslation();
   const [videoModalActive, setVideomodalactive] = useState(false);
 
   const openModal = (e) => {
@@ -44,16 +45,16 @@ const FeaturesTilesPen = ({
       <div className="container-sm">
           <div className="u-center-text">
             <h1>
-              하드웨어에 얽매이지 않는 <br />헤드리스 스크립트
+            {t("section3.58")}<br />{t("section3.59")}
             </h1>
             <div className="container-sm">
               <p className="u-center-text" style={{ color: '#fff' }}>
-                헤드리스 솔루션은 실제 실행 중인 클라이언트를 사용하여 부하 테스트를 수행하는<br />
-                대신 가상 머신의 플레이어와 사용자를 시뮬레이션합니다. <br />
+              {t("section3.60")}<br />
+              {t("section3.61")}<br />
                 
-                잠재적인 수천 명의 플레이어와 사용자를 시뮬레이션하는 데 <br />
-                필요한 RAM이나 CPU 부하가 필요하지 않습니다.<br />
-                Unreal, Unity 및 맞춤형 네트워킹 서비스와 통합할 수 있습니다.
+              {t("section3.62")}<br />
+              {t("section3.63")}<br />
+              {t("section3.64")}
               </p>
             </div>
           </div>

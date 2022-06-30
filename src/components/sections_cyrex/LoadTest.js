@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { SectionTilesProps } from '../../utils/SectionProps';
 
 const propTypes = {
@@ -20,7 +21,7 @@ const FeaturesTilesLoad = ({
   ...props
 }) => {
 
-
+  const { t } = useTranslation();
   return (
     <section
       {...props}
@@ -31,15 +32,15 @@ const FeaturesTilesLoad = ({
       <div className="container" style={{  }}>
         <div class="u-center-text u-margin-bottom-small">
             <h2 class="heading-secondary">
-                트래픽 용량을 추측해서 서비스 하시나요?
+            {t("section3.65")}
             </h2>
             <div className="container-xs">
               <p className="m-0 mb-32" >
-                지금 바로 소프트웨어 개발 전문가에게 문의하여 시스템이 어려움을 겪거나 장애가나기 전에 얼마나 많은 지원을 받을 수 있는지 알아보십시오.
+              {t("section3.66")}
               </p>
             </div>
             <div className="u-center-text">
-              <a href="mailto:info@watchdogs.co.kr" target='blank' class="btn btn--white" style={{ color: '#777777' }}>와치독스에 연락하기  &rarr;</a>
+              <a href="mailto:info@watchdogs.co.kr" target='blank' class="btn btn--white" style={{ color: '#777777' }}>{t("section3.67")}  &rarr;</a>
           </div>
         </div>
             <div class="row">

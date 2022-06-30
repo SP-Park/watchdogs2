@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import { Router } from "react-router-dom";
 import { createBrowserHistory } from "history";
+
+// Multi Language
+import './i18n';
 
 import App from './App';
 import * as serviceWorker from './serviceWorker';
@@ -12,9 +15,11 @@ import './assets/scss/style.scss';
 const history = createBrowserHistory();
 
 ReactDOM.render(
-  <Router history={history}>
-    <App />
-  </Router>,
+  <Suspense fallback={(<div>Loading !</div>)}>
+    <Router history={history}>
+      <App />
+    </Router>
+  </Suspense>,
   document.getElementById('root')
 );
 

@@ -4,6 +4,7 @@ import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -24,7 +25,7 @@ const Testimonial = ({
   pushLeft,
   ...props
 }) => {
-
+  const { t } = useTranslation();
   const outerClasses = classNames(
     'testimonial section',
     topOuterDivider && 'has-top-divider',
@@ -45,11 +46,6 @@ const Testimonial = ({
     pushLeft && 'push-left'
   );
 
-  const sectionHeader = {
-    title: 'WatchDogs Blogs',
-    paragraph: '게임 보안의 트렌드.'
-  };
-
   return (
     <section
       {...props}
@@ -57,7 +53,11 @@ const Testimonial = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" style={{ color: '#fff' }}/>
+        <div class="u-center-text u-margin-bottom-medium">
+          <h2 class="heading-secondary" style={{ color: '#fff' }}>
+            WatchDogs Blogs <br /> {t("section.53")}
+          </h2>
+        </div>  
           <div className={tilesClasses}>
 
             <div className="tiles-item">
@@ -120,7 +120,7 @@ const Testimonial = ({
                       height={400} />
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                  THE LAST CHECKPOINT FOR CHEATING - 부정행위와 유저경험, 그리고 게임보안.
+                  THE LAST CHECKPOINT FOR CHEATING - {t("section.54")}
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
