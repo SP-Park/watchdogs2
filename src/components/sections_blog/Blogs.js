@@ -86,10 +86,10 @@ const Testimonial = ({
                 />
                 <CardContent>
                   <Typography gutterBottom variant="subtitle2" component="h2" color="primary">
-                    해킹 이슈: 
+                  {t("section4.3")} 
                   </Typography>
                   <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
-                    트위치, Naraka: Bladepoint, BloodyStealer
+                  {t("section4.4")}, Naraka: Bladepoint, BloodyStealer
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -142,7 +142,7 @@ const Testimonial = ({
                     GLOBAL GAMING INSIGHT: 
                   </Typography>
                   <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
-                    코로나-19 이후 변화하는 <br />게이머의 모습
+                  {t("section4.5")}<br />{t("section4.6")}
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -168,7 +168,7 @@ const Testimonial = ({
                     Game Penetration Testing: 
                   </Typography>
                   <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
-                  안티 치트와 침투테스트: <br />거리의 중요성
+                  {t("section4.7")} <br />{t("section4.8")}
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -220,7 +220,7 @@ const Testimonial = ({
                     GLOBAL GAMING SURVEY: 
                   </Typography>
                   <Typography variant="body1" color="textSecondary" component="p" style={{ fontSize: '0.9rem' }}>
-                    THE LAST CHECKPOINT FOR CHEATING - 부정행위, 유저경험, 그리고 보안
+                    THE LAST CHECKPOINT FOR CHEATING - {t("section4.9")}
                   </Typography>
                 </CardContent>
               </CardActionArea>
