@@ -115,6 +115,7 @@
 @import "core/sections/hero";
 @import "core/sections/hero_about";
 @import "core/sections/hero_cyrex";
+@import "core/sections/hero_threatx";
 @import "core/sections/hero_cyberservice";
 
 /*--------------------------------------------------------------
@@ -167,3 +168,8 @@
 # About Us
 --------------------------------------------------------------*/
 @import "core/sections/partners";
+
+/*--------------------------------------------------------------
+# Denuvo
+--------------------------------------------------------------*/
+@import "core/sections/features-unbotify";

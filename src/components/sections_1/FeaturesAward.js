@@ -30,7 +30,7 @@ const FeaturesAward = ({
             <div class="book__form">
                     <div style={{ marginBottom: '0px' }}>
                         <h2 class="heading-secondary">
-                            2022 Cyber Security Awards GOLD WINNER
+                            2023 Cyber Security Awards GOLD WINNER
                         </h2>
                     </div>
                     <div>

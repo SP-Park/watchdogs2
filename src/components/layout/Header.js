@@ -2,15 +2,12 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
-import Logo from './partials/Logo';
 import Avatar from '@material-ui/core/Avatar';
 import IconButton from '@material-ui/core/IconButton';
 import Popover from '@material-ui/core/Popover';
-import Typography from '@material-ui/core/Typography';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
 
 import i18next from 'i18next';
 
@@ -224,6 +221,9 @@ const Header = ({
                     </li>
                     <li>
                       <Link to="/v2/cyrex" onClick={closeMenu} style={{ color: '#fff' }}>Cyrex</Link>
+                    </li>
+                    <li>
+                      <Link to="/v4/threatx" onClick={closeMenu} style={{ color: '#fff' }}>ThreatX</Link>
                     </li>
                     <li>
                       <Link to="/blog" onClick={closeMenu} style={{ color: '#fff' }}>Blog</Link>

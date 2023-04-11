@@ -1,7 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
-import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
 import { useTranslation } from 'react-i18next';
 
@@ -51,7 +50,7 @@ const FeaturesTiles = ({
     >
       <div className="container mt-20">
         <div className={innerClasses}>
-        <div class="u-center-text u-margin-bottom-big">
+        <div class="u-center-text u-margin-bottom-medium">
           <h2 class="heading-secondary" style={{ color: '#fff' }}>
             {t("section.8")}
           </h2>
@@ -67,9 +66,9 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   {/* <div className="features-tiles-item-image mb-16"> */}
                     <Image
-                      src={require('./../../assets/images/2022.png')}
+                      src={require('./../../assets/images/2023_Gold.png')}
                       alt="Features tile icon 01"
-                      width={64}
+                      width={90}
                       height={64} />
                   {/* </div> */}
                 </div>
@@ -95,9 +94,9 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   {/* <div className="features-tiles-item-image mb-16"> */}
                     <Image
-                      src={require('./../../assets/images/2022.png')}
+                      src={require('./../../assets/images/2023_Gold.png')}
                       alt="Features tile icon 02"
-                      width={64}
+                      width={90}
                       height={64} />
                   {/* </div> */}
                 </div>
@@ -121,9 +120,9 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   {/* <div className="features-tiles-item-image mb-16"> */}
                     <Image
-                      src={require('./../../assets/images/2022.png')}
+                      src={require('./../../assets/images/2023_Gold.png')}
                       alt="Features tile icon 03"
-                      width={64}
+                      width={90}
                       height={64} />
                   {/* </div> */}
                 </div>

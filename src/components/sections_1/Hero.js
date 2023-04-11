@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import { useTranslation } from 'react-i18next';
@@ -46,30 +46,29 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-v2-content">
-          <h1 className="mt-0 mb-16 heading-secondary">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <h1 className="mt-20 mb-16 h1" style={{ color: '#fff' }}>
           {t("section1.1")}<br />
           </h1>
             <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+
             <div className="container-xs">
-              <p className="m-0 mb-32" style={{ color: '#fff' }}>
+              <p className="m-0 mb-32 h4" style={{ color: '#fff' }}>
               {t("section1.2")} <br /> {t("section1.3")}
               </p>
             </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />

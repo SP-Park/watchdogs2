@@ -1,0 +1,88 @@
+.unbotify {
+
+	background-image: 
+		url(../../../images/unbotify/unbotify.jpg);
+		
+	opacity: 1;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+
+	.section-inner {
+		padding-top: $hero--padding-t__mobile;
+		padding-bottom: $hero--padding-b__mobile;
+	}
+}
+
+.unbotify_bottom {
+	background-image: 
+	url(../../../images/unbotify/purple_bg.jpg);
+}
+
+.unbotify-inner {
+
+	// Affects only hero full
+	> .unbotify-content + .unbotify-figure,
+	> .unbotify-figure + .unbotify-content {
+		margin-top: $hero--inner-padding-v_mobile;
+	}
+
+	> .unbotify-figure {
+
+		> a {
+			display: inline-flex;
+			// prevents stretching
+			align-items: center;
+			vertical-align: top;
+		}
+	}
+}
+
+@include media( '<=medium' ) {
+
+	.unbotify {
+
+		.split-wrap {
+
+			.split-item {
+
+				.split-item-content {
+					margin-bottom: $hero--inner-padding-v_mobile;
+				}
+			}
+
+			&.invert-mobile {
+
+				.split-item {
+
+					.split-item-image {
+						margin-bottom: $hero--inner-padding-v_mobile;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include media( '>medium' ) {
+
+	.unbotify {
+
+		.section-inner {
+			padding-top: $hero--padding-t__desktop;
+			padding-bottom: $hero--padding-b__desktop;
+		}
+	}
+
+	.unbotify-inner {
+
+		// Affects only hero full
+		> .unbotify-content + .unbotify-figure,
+		> .unbotify-figure + .unbotify-content {
+			margin-top: $hero--inner-padding-v_desktop;
+		}
+	}
+}
+
+//////////////////////////////////////////////////////////////////////////////
+
